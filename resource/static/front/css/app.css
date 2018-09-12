@@ -1,0 +1,556 @@
+/*移动端隐藏标签*/
+.mobile_silider_box{display:none;text-align:center}
+.mobile_box{display:none}
+.mobile_trading_help{display:none}
+.small_footer{display:none}
+.mobile_content_profile{display:none}
+.mobile_content_img{display:none}
+.mobile_content_history{display:none}
+.linkus_customer{display:none}
+.forex_text_title{display:none}
+.forex_table_title{display:none}
+.whyus_text_title{display:none}
+.whyus_history_title{display:none}
+.whyus_view_title{display:none}
+.moneysafety_text_title{display:none}
+.moneysafety_view_title{display:none}
+.crude_text_title{display:none}
+.zhishu_text_title{display:none;}
+.metal_text_title{display:none}
+.metal_table_title{display:none}
+.metal_text_title{display:none}
+.rule_view_bot_title{display:none}
+.mt4pc_main_title{display:none}
+.mt4mobile_android{display:none}
+.datadownload_title{display:none}
+.linkus_message_title{display:none}
+.data_content{display:none}
+.training_main_top_title{display:none}
+.company_overview_content_title{display:none}
+.helpcenter_main_bot_title{display:none}
+.announcement_main_title{display:none}
+.cooperation_display{display:none}
+.cooperation_text_title{display:none}
+.cooperation_text_content{display:none;}
+.cooperation_text_image{display:none;}
+.submit_content_title{display:none}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 1024px){
+  
+  /*html,body{font-size:40px;}*/
+ .main_menu_header span, .main_menu_header a{
+    font-size: 0.5rem;
+   }
+  .bx-wrapper{display:none;}
+  #drag{display:none;}
+  .mobile_menu a{font-size: 0.5rem;}
+  .small_menu li a {font-size: 0.4rem;}
+  .mobile_silider_box a{text-decoration:none;display:block;width:3.75rem;margin:0 auto;margin-top:0.75rem;font-size:0.4rem;line-height:1rem;height:1rem;color:#fff;border-radius:20px;color:#333;background: linear-gradient(#e5c365,#bb8e38);}
+  .mobile_silider_box a:hover{color:#fff;}
+  .mobile_silider_box{display:block;height:7.5rem;width:100%;background-size:cover;background-image:url(../images/moblie_silider_box.jpg);background-repeat:no-repeat;}
+  .mobile_silider_box img{max-width:100%;max-height:100%;margin-top:1.25rem;}
+  .new_home_market_trading{width:100%;height:8.25rem;}
+  .new_home_market_trading .box{display:none}
+   .new_home_market_trading .mobile_box{display:block;width:100%;}
+  .new_home_market_trading .mobile_box .mobile_box_top{height:40%;padding-top:0.25rem;}
+  .new_home_market_trading .mobile_box .mobile_box_top h1{color:#e0b975;font-size:0.6rem;text-align:center;font-weight:bold;}
+  .new_home_market_trading .mobile_box .mobile_box_top h2{margin:0;color:#e2be7f;font-size:0.5rem;text-align:center;}
+  .new_home_market_trading .mobile_box .mobile_box_top span{display:inline-block;width:1.2rem;height:0.6rem;color:#fff;font-size:0.4rem;text-align:center;line-height:0.6rem;}
+  .new_home_market_trading .mobile_box .mobile_box_top .span1{background-color:#333;margin-left:2.5rem}
+  .new_home_market_trading .mobile_box .mobile_box_top .span2{background-color:#c19b5c;margin-left:0.25rem;}
+  .new_home_market_trading .mobile_box .mobile_box_top .span3{background-color:#ddd;margin-left:0.25rem}
+  .new_home_market_trading .mobile_box .mobile_box_bottom{height:60%;text-align:center;}
+  .new_home_market_trading .mobile_box .mobile_box_bottom img{max-width:100%;max-height:100%;}
+  .new_home_trading_help{display:none;}
+  .mobile_trading_help{text-align:center;display:block;height:4.25rem;width:100%;background-image:url(../images/mobile_trading_help.jpg);background-repeat:no-repeat;background-size:cover;}
+  .mobile_trading_help h1{color:#dcb888;font-size:0.75rem;font-weight:bold;padding-top:0.5rem;margin-bottom:0.25rem;}
+  .mobile_trading_help h2{color:#dcb888;font-size:0.4rem;}
+  .mobile_trading_help a{display:block;background-color:#dcb888;width:3.75rem;margin:0 auto;height:1rem;font-size:0.5rem;text-align:center;line-height:1rem;color:#333;border-radius:10px;}
+  .new_home_choose_ocn .down_arrow{display:none}
+  .new_home_choose_ocn .i1{display:none}
+  .new_home_choose_ocn .i2{display:none}
+  .inner{padding:0;}
+  .new_home_choose_ocn .inner h2{font-size:0.65rem;}
+  .new_home_choose_ocn ul li .pre{font-size:0.35rem}
+  .new_home_choose_ocn .inner h2 p{font-size:0.35rem;color:#8c8c8c;font-weight:normal}
+ .new_home_choose_ocn ul li{width:50%;padding:0;height:5rem;}
+  .new_home_choose_ocn ul li .wrap{width:2.5rem;height:2.5rem;left:0;border-radius:1.25rem;}
+  .new_home_post{display:none;}
+   #footer{display:none}
+  .small_footer{display:block;background-color:#232323;text-align:center;}
+  .small_footer_title{background-color:#2c2c2c;width:100%;}
+  .small_footer_title_top{width:90%;margin:0 auto;line-height:0.5rem;}
+  .small_footer_title a{display:inline-block;color:#fff;font-size:0.4rem;text-decoration:none;padding:0.25rem;}
+  .small_footer_mail{padding:0.25rem;font-size: 0.5rem;color: #ffCC00;line-height: 1rem;border-bottom:1px solid #272727;position:relative;}
+  .small_footer_mail:before {content:"";width: 1.075rem;height: 0.85rem;position:absolute;top:0.4rem;left:0.4rem;background-image:url(../images/mail_icon.png);background-size: contain;}
+  .small_footer_text{color:#686868;padding:0.75rem;font-size:0.375rem;text-align:left;}
+  .small_menu li ul li a span{font-size:0.35rem;}
+
+  /*品牌故事*/
+  .new_content_display_center{border:none;padding:0;}
+  .new_content_display{height:7.5rem;padding:0;padding-top:2.5rem;}
+  .new_content_display_center>p:first-child{font-size:1rem;line-height:1.25rem;}
+  .new_content_display_center>p:nth-child(2){font-size:1rem;line-height:1.725rem}
+  .new_content_display_center>p:last-child{display:none}
+  .new_content_profile{display:none}
+  .mobile_content_profile{display:block;height:10.0rem;padding:0.5rem;}
+  .mobile_content_profile h1{font-size:0.7rem;color:#333;font-weight:bold}
+  .mobile_content_profile p{font-size:0.325rem;color:#686868;text-indent:0.25rem}
+  .mobile_content_img{display:block}
+  .mobile_content_img img{max-width:100%;}
+  .new_content_yewu{min-height:8.25rem;margin:0;}
+  .new_content_yewu h2{padding-top:1.5rem;margin-bottom:1.25rem;}
+  .new_content_yewu h3{padding:0.5rem 0.75rem 0 0.75rem;color:#686868;margin:0;font-size:0.325rem}
+  .new_content_view{display:none}
+  .new_content_history{display:none}
+  .mobile_content_history{display:block;padding:0.5rem;height:12.5rem;}
+  .mobile_content_history h1{font-size:0.75rem;color:#333;font-weight:bold;}
+  .mobile_content_history img{max-width:100%;height:91%;display:block}
+  .mobile_content_history_left{width:10%;float:left;height:100%;}
+  .mobile_content_history_text{width:90%;height:100%;float:left;font-size:0.325rem;}
+  .mobile_content_history_text p{display:block;width:100%;height:15%;line-height:0.5rem;padding-top:0.5rem;}
+  .mobile_content_history{height:12.5rem;}
+
+  /*联系我们*/
+  .linkus_text_top{display:none;padding-top:1.25rem;}
+  .linkus_text>i{display:none}
+  .linkus_text_bot{min-height:10.0rem;}
+  .linkus_text_bot span{width:110%;display:flex;flex-direction:row;align-items:center;float:none;margin-top:0.75rem;border:0px;text-align:left}
+  .linkus_text_bot span>p{padding-left:0.25rem;font-weight:bold;font-size:0.35rem}
+  .linkus_display{height:7.5rem;padding:0;padding-top:2.5rem;}
+  .linkus_display_center{border:none;padding:0;}
+  .linkus_display_center>p:first-child{font-size:1rem;line-height:1.25rem;}
+  .linkus_display_center>p:nth-child(2){font-size:0.75rem;line-height:1rem}
+  .linkus_display_center>p:last-child{display:none}
+  .linkus_text_bot>span:nth-child(3){border:0;}
+  .linkus_text_bot>span:nth-child(2){border:0;}
+  .linkus_customer{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding-top:0.5rem;}
+  .linkus_text_bot h1{padding-top:0.5rem;font-size:0.325rem}
+  .linkus_message{min-height:12rem;}
+  .linkus_message_r{display:none}
+  .linkus_message{width:80%;margin-top:0.5rem;}
+  .linkus_message_l{width:100%;padding-left:0.5rem;padding-top:0.5rem;padding-bottom:0.5rem}
+  .linkus_message_l input[type="text"]{width:6.5rem;height:1.0rem;margin-top:0.25rem}
+  .linkus_message_l textarea{width:6.5rem;margin-top:0.25rem}
+  .linkus_message_l input[type="button"]{font-size:0.375rem;float:left;margin-left:0;width:3.75rem;height:1.0rem;margin-bottom:0.5rem;margin-top:0.25rem}
+  .linkus_message_l input[name="checkcode"]{width:3.5rem;}
+  .linkus_message_title{display:block;text-align:center;font-size:0.4rem;color:#000;padding-top:0.5rem;font-weight:bold;}
+  .linkus_message{margin-top:1.5rem;}
+  .linkus_message_l #imgcode{width:2.5rem;height:1.0rem;margin-top:0.25rem;margin-left:0.25rem;}
+  input::-webkit-input-placeholder {font-size:0.325rem}
+  textarea::-webkit-input-placeholder {font-size:0.325rem}
+ /* 外汇*/
+ .forex_display{height:7.5rem;padding:0;padding-top:2.5rem;}
+.forex_display_center{padding:0;border:none;}
+.forex_display_center>p:first-child{font-size:0.75rem;line-height:1.25rem;}
+.forex_display_center>p:nth-child(2){font-size:0.6rem;line-height:1rem}
+.forex_display_center>p:last-child{display:none}
+.forex_text_top{display:none}
+.forex_text>i{display:none}
+.forex_text_title{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding:0.5rem;}
+.forex_text_bot{min-height:8.25rem;padding:0;}
+.forex_text_bot h1{display:none}
+.forex_text_bot p{padding:0.75rem;font-size:0.35rem;line-height:0.6rem;}
+.forex_view{display:none}
+.forex_table_title{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding:0.5rem;text-align:center}
+.forex_table table{width:100%;}
+.forex_table table thead th{line-height:0.5rem;}
+.forex_table p{width:88%;line-height:0.5rem;}
+.forex_table a{display:none}
+
+
+/*原油*/
+.crude_display{height:7.5rem;padding:0;padding-top:2.5rem;}
+.crude_display_center{padding:0;border:none;}
+.crude_display_center>p:first-child{font-size:0.75rem;line-height:1.25rem;}
+.crude_display_center>p:nth-child(2){font-size:0.6rem;line-height:1rem}
+.crude_display_center>p:last-child{display:none}
+.crude_text_top{display:none}
+.crude_text>i{display:none}
+.crude_text_title{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding:0.5rem;}
+.crude_text_bot{min-height:8.25rem;padding:0;background-image:url(../images/crude_banner1.jpg);}
+.crude_text_bot h1{display:none}
+.crude_text_bot p{padding:0.75rem;font-size:0.35rem;line-height:0.6rem;}
+.crude_view{display:none}
+.crude_table_title{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding:0.5rem;text-align:center}
+.crude_table table{width:100%;font-size:0.325rem}
+.crude_table table thead th{line-height:0.5rem;}
+.crude_table p{width:88%;line-height:0.5rem;font-size:0.325rem}
+.crude_table a{display:none}
+
+/*指数*/
+.zhishu_display{height:7.5rem;padding:0;padding-top:2.5rem;background:url(../images/zhishu_bg.jpg) center center no-repeat;}
+.zhishu_display_center{padding:0;border:none;}
+.zhishu_display_center>p:first-child{font-size:0.75rem;line-height:1.25rem;}
+.zhishu_display_center>p:nth-child(2){font-size:0.4rem;line-height:1rem}
+.zhishu_display_center>p:last-child{display:none}
+.zhishu_text_top{display:none}
+.zhishu_text>i{display:none}
+.zhishu_text_title{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding:0.5rem;}
+.zhishu_text_bot{min-height:6.5rem;padding:0;background-position:60% 0;}
+.zhishu_text_bot h1{display:none}
+.zhishu_text_bot p{padding:0.75rem;font-size:0.35rem;line-height:0.6rem;}
+.forex_table table tbody td{line-height:0.5rem}
+.forex_table{font-size:0.325rem}
+
+/*黄金白银*/
+.metal_display{height:7.5rem;padding:0;padding-top:2.5rem;}
+.metal_display_center{padding:0;border:none;}
+.metal_display_center>p:first-child{font-size:0.75rem;line-height:1.25rem;}
+.metal_display_center>p:nth-child(2){font-size:0.6rem;line-height:1rem}
+.metal_display_center>p:last-child{display:none}
+.metal_text_top{display:none}
+.metal_text>i{display:none}
+.metal_text_title{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding:0.5rem;}
+.metal_text_bot{min-height:7rem;padding:0;}
+.metal_text_bot h1{display:none}
+.metal_text_bot p{padding:0.75rem;font-size:0.35rem;line-height:0.6rem;}
+.metal_view{display:none}
+.metal_table_title{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding:0.5rem;text-align:center}
+.metal_table table{width:100%;font-size:0.325rem}
+.metal_table table thead th{line-height:0.5rem;}
+.metal_table p{width:88%;line-height:0.5rem;font-size:0.325rem}
+.metal_table a{display:none}
+.metal_table{padding-bottom:0.5rem}
+.metal_text_title{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding:0.5rem;text-align:center}
+.metal_text_bot1{min-height:7.5rem;padding:0.75rem;background-position:50% 0;}
+.metal_text_bot1 p{line-height:0.625rem;font-size:0.4rem}
+.metal_text_bot1 h1{display:none}
+
+/*为何选择我们*/
+.whyus_display{height:7.5rem;padding:0;padding-top:2.5rem;}
+.whyus_display_center{padding:0;border:none;}
+.whyus_display_center>p:first-child{font-size:0.75rem;line-height:1.25rem;}
+.whyus_display_center>p:nth-child(2){font-size:0.6rem;line-height:1rem}
+.whyus_display_center>p:last-child{display:none}
+.whyus_text_top{display:none}
+.whyus_text>i{display:none}
+.whyus_text_title{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding:0.5rem;text-align:center}
+.whyus_text_bot ul{width:100%;}
+.whyus_text_bot ul li p{font-size:0.325rem}
+.whyus_history_bot p{font-size:0.4rem;line-height:0.5rem}
+.whyus_view_bot p{font-size:0.325rem;line-height:0.5rem}
+.whyus_view_bot h1{font-size:0.5rem;line-height:1.25rem;}
+.whyus_history_top{display:none}
+.whyus_history>i{display:none}
+.whyus_history_bot{padding:0.75rem;}
+.whyus_history_bot>p>img{display:none}
+.whyus_history_bot img{display:none}
+.whyus_history_title{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding:0.5rem;text-align:center}
+.whyus_view_top{display:none;}
+.whyus_view>i{display:none;}
+.whyus_view {display:flex;flex-direction:row;align-items:center;}
+.whyus_view_bot .img1{width:100%;display:flex;flex-direction:row;align-items:flex-start;}
+.whyus_view_bot .img2{width:100%;display:flex;flex-direction:row;align-items:flex-start;}
+.whyus_view_bot .img3{width:100%;display:flex;flex-direction:row;align-items:flex-start;}
+.whyus_view_bot .img4{width:100%;display:flex;flex-direction:row;align-items:flex-start;}
+.whyus_view_bot{width:90%;}
+.whyus_view_bot .whyus_view_bot1{width:68%;}
+.whyus_view_bot p{padding-left:0.25rem;padding-right:0;}
+.whyus_view_title{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding:0.5rem;text-align:center}
+
+/*资金安全*/
+.moneysafety_display{height:7.5rem;padding:0;padding-top:2.5rem;}
+.moneysafety_display_center{padding:0;border:none;}
+.moneysafety_display_center>p:first-child{font-size:0.75rem;line-height:1.25rem;}
+.moneysafety_display_center>p:nth-child(2){font-size:0.6rem;line-height:1rem}
+.moneysafety_display_center>p:last-child{display:none}
+.moneysafety_text_top{display:none;}
+.moneysafety_text>i{display:none}
+.moneysafety_text_title{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding:0.5rem;text-align:center}
+.moneysafety_text_bot .img1{width:100%;display:flex;flex-direction:row;align-items:flex-start;}
+.moneysafety_text_bot .img2{width:100%;display:flex;flex-direction:row;align-items:flex-start;}
+.moneysafety_text_bot .img3{width:100%;display:flex;flex-direction:row;align-items:flex-start;}
+.moneysafety_text_bot p{padding-left:0.25rem;padding-right:0;font-size:0.325rem;line-height:0.5rem}
+.moneysafety_text_bot1{width:68%;text-align:left;}
+.moneysafety_text_bot1 h1{text-indent:0;padding-left:0.25rem;font-size:0.5rem;line-height:1.0rem}
+.moneysafety_text>img{display:none}
+.moneysafety_banner{background-position:40% 0;min-height:7.5rem;padding:0;margin-top:0.75rem;padding-left:30%;padding-top:0.75rem;}
+.moneysafety_banner h1{font-size:0.55rem}
+.moneysafety_banner p{font-size:0.375rem;padding:0;line-height:0.7rem;padding-right:0.25rem;}
+.moneysafety_text_bot{min-height:18rem}
+.moneysafety_view_top{display:none}
+.moneysafety_view>i{display:none}
+.moneysafety_view_bot{width:90%;min-height:23rem;}
+.moneysafety_view_bot .img1{width:100%;display:flex;flex-direction:row;align-items:flex-start;}
+.moneysafety_view_bot .img2{width:100%;display:flex;flex-direction:row;align-items:flex-start;}
+.moneysafety_view_bot .img3{width:100%;display:flex;flex-direction:row;align-items:flex-start;}
+.moneysafety_view_bot .img4{width:100%;display:flex;flex-direction:row;align-items:flex-start;}
+.moneysafety_view_bot .img5{width:100%;display:flex;flex-direction:row;align-items:flex-start;}
+.moneysafety_view_bot .img6{width:100%;display:flex;flex-direction:row;align-items:flex-start;}
+.moneysafety_view_title{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding:0.5rem;text-align:center}
+.moneysafety_view_bot .img1{margin-top:0.75rem}
+.moneysafety_view_bot h1{font-size:0.5rem;line-height:1.0rem}
+.moneysafety_view_bot p{padding-left:0.5rem;padding-right:0.5rem;line-height:0.5rem;font-size:0.325rem}
+
+/*产品规则*/
+.rule_display_center>p:last-child{font-size:0.875rem;line-height:1.0rem}
+.rule_display{height:7.5rem;padding:0;padding-top:2.5rem;}
+.rule_display_center{padding:0;border:none;}
+.rule_display_center>p:first-child{display:none}
+.rule_display_center>p:nth-child(2){font-size:0.6rem;line-height:1rem}
+.rule_text{display:none}
+.rule_view{width:100%;padding-left:0.25rem;padding-right:0.25rem;padding-top:0;}
+.rule_view h5{padding:0;font-size:0.35rem}
+.rule_view_top label{display:none}
+.rule_view_bot .company_overview_content{display:none}
+.page_content_list_title .iocn_box{display:none}
+.page_content_list_nr table th{padding-top:0.4rem;padding-bottom:0.4rem;padding-left:0;padding-right:0;}
+.page_content_list_nr table td{padding-top:0.4rem;padding-bottom:0.4rem;padding-left:0;padding-right:0;}
+.page_content_list_nr p{font-size:0.35rem}
+.rule_view_bot .page_content_list_content{padding:0.25rem;}
+.page_content_list_nr img{display:none}
+.page_content_list_title{padding-top:0.5rem}
+.rule_view_bot_title{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding:0.5rem;text-align:center}
+.page_content_list_nr table{font-size:0.35rem}
+.page_content_list_nr table th{font-size:0.35rem}
+.page_content_list_nr table td{font-size:0.35rem}
+ 
+
+ /*三大账户*/
+
+.account_display_center>p:last-child{font-size:0.875rem;line-height:1.0rem}
+.account_display{height:7.5rem;padding:0;padding-top:2.5rem;}
+.account_display_center{padding:0;border:none;}
+.account_display_center>p:first-child{display:none}
+.account_display_center>p:nth-child(2){font-size:0.6rem;line-height:1rem}
+.account_text{display:none}
+.account_view_top label{display:none}
+.account_view{width:100%;padding-left:0.25rem;padding-right:0.25rem;padding-top:0;}
+.account_view_bot{padding-top:0;}
+.page_content_list_title p{font-size:0.6rem}
+.default_template p{font-size:0.35rem}
+.default_template table{font-size:0.35rem}
+.default_template table td{font-size:0.35rem;padding:0.4rem 0.25rem;}
+.default_template table th{font-size: 0.35rem;padding:0.4rem 0.25rem;}
+.page_accordion_content_title{font-size:0.5rem;margin-bottom:0.5rem;padding:0.175rem 1.8rem 0.175rem 0.5rem;}
+.page_accordion_content_text .default_template ul, .page_accordion_content_text .default_template ol{margin-left:1.3rem;}
+.default_template li{font-size:0.35rem}
+/*软件下载*/
+.mt4pc_display{height:7.5rem;padding:0;padding-top:2.5rem;}
+.mt4pc_display_center{padding:0;border:none;}
+.mt4pc_display_center>p:first-child{display:none}
+.mt4pc_display_center>p:nth-child(2){font-size:0.6rem;line-height:1rem}
+.mt4pc_display_center>p:last-child{font-size:0.875rem;line-height:1.0rem}
+.mt4pc_text{display:none}
+.mt4pc_view_top{display:none}
+.mt4pc_view_bot h1{border:0;font-weight:bold;color:#333;padding-top:0.5rem;font-size:0.75rem;line-height:1.0rem;padding-bottom:0.25rem}
+.mt4pc_view_bot p{margin-top:1rem;text-align:left;font-size:0.325rem}
+.mt4pc_view_bot{width:85%;min-height:7.5rem}
+.mt4pc_view_bot ul{display:none}
+.mt4pc_main_top label{display:none}
+.mt4pc_main_top{display:block;min-height:25rem}
+.mt4pc_main_bot_content{width:90%;}
+.mt4pc_main_bot{min-height:25rem;display:block}
+.mt4pc_main_bot_content h1{display:none}
+.mt4pc_main_bot_left{width:100%;}
+.mt4pc_main_bot_right li span{font-size:0.35rem;line-height:0.75rem;padding-left:0.25rem} 
+.mt4pc_main_bot_right li i{background-size:contain;}
+.mt4pc_main_bot_right{width:100%;padding-top:0px}
+.mt4pc_main{padding-left:0;padding-top:0;}
+.mt4pc_main_title{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding:0.5rem;text-align:left}
+.mt4pc_main_bot_right a{float:none;margin:0.5rem auto;}
+.mt4mobile_main_bot_right{width:100%;}
+.mt4mobile_main_bot_left{width:100%;}
+.mt4mobile_main_bot_left li span{font-size:0.35rem;line-height:0.75rem;padding-left:0.25rem}
+.mt4app_main_bot_top p{font-size:0.325rem}
+.mt4mobile_main_bot_left li i{background-size:contain}
+.mt4mobile_main_bot_left>img{display:none}
+.mt4mobile_main_bot_left .ios{margin-left:0px;margin:0 auto;}
+.mt4mobile_main_bot_left a{float:none;margin:0 auto;}
+.mt4mobile_android{margin:0 auto;border-top-left-radius:0.075rem;border-top-right-radius:0.075rem;display:block;background-color:#b28750;width:4.5rem;height:0.75rem;line-height:0.75rem;color:#fff;font-size:0.4rem;background-image:url(../images/android1.png);background-repeat:no-repeat;background-size:contain;background-position:0.5rem 0px}
+.mt4mobile_ios{margin:0 auto;border-top-left-radius:0.075rem;border-top-right-radius:0.075rem;display:block;background-color:#b28750;width:4.5rem;height:0.75rem;line-height:0.75rem;color:#fff;font-size:0.4rem;background-image:url(../images/ios1.png);background-repeat:no-repeat;background-size:contain;background-position:0.5rem 0px}
+.mt4mobile_main_bot_right{display:none}
+.mt4app_main_bot_top>i{display:none}
+.mt4app_main_bot_top{padding:0;}
+.mt4app_main_bot_right ul{display:none}
+.mt4app_main_bot_right .img1{display:none}
+.mt4app_main_bot_right .img2{margin:0 auto;}
+.mt4app_main_bot_left{width:80%;}
+.mt4pc_main_bot_right a{width:5.0rem;height:1.2rem;font-size:0.45rem;line-height:1.2rem}
+
+
+/*资料下载*/
+
+.datadownload_display{height:7.5rem;padding:0;padding-top:2.5rem;}
+.datadownload_display_center{padding:0;border:none;}
+.datadownload_display_center>p:first-child{display:none}
+.datadownload_display_center>p:nth-child(2){font-size:0.6rem;line-height:1rem}
+.datadownload_text{display:none}
+.datadownload_main_top label{display:none}
+.datadownload_main_bot{display:block}
+.datadownload_main_bot{width:100%;}
+.datadownload_main{margin-top:0;}
+.datadownload_title{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding:0.5rem;text-align:left}
+.datadownload_main_bot dd{position:relative;border:1px solid #cdcdcd;margin-top:0.25rem;display:block}
+.datadownload_main_bot dd span{font-size:#333;font-weight:bold;border}
+.datadownload_main_bot dl dd .a1{display:none}
+.datadownload_main_bot dl dd .a2{display:none}
+.datadownload_main_bot dl{display:none}
+.data_content{width:90%;margin:0.5rem auto;display:block}
+.data_content_title{font-size:0.325rem;position:relative;border:1px solid #8d8d8d;padding:0.25rem;text-align:left;color:#333;background-color:#e4e4e4;}
+.data_content_title i{ display:block; width:0.35rem; height:0.35rem; background:url(../images/arrow_down.png) left bottom /contain no-repeat; position:absolute; right:0.75rem; top:0.25rem;}
+.data_content_title.selected i{transform:rotate(180deg);}
+.data_content_text{display:none;border-left:1px solid #8d8d8d;border-right:1px solid #8d8d8d;border-bottom:1px solid #8d8d8d;}
+.data_content_text .default_template embed{display:none}
+.data_content_text .default_template a {text-decoration: none;color: #fff;width:3rem;height: 0.8rem;line-height: 0.8rem;margin-top: 0.225rem;margin-right: 0.875rem;margin-bottom:0.25rem;border-radius: 6px;float: right;display: block;}
+.data_content_text .default_template .a1{font-size:0.325rem;background-color: #b1894e;background-image: url(../images/datadownload.png);background-repeat: no-repeat;background-position: 0.25rem 0.2rem;}
+.data_content_text .default_template .a2{font-size:0.325rem;background-color: #999;background-image:url(../images/datadownload1.png);background-repeat: no-repeat;background-position: 0.2rem 0.225rem;}
+
+
+/*培训课堂*/
+.training_display{height:7.5rem;padding:0;padding-top:2.5rem;}
+.training_display_center{padding:0;border:none;}
+.training_display_center>p:first-child{display:none}
+.training_display_center>p:nth-child(2){font-size:0.6rem;line-height:1rem}
+.training_text{display:none}
+.training_main_top label{display:none}
+.training_main_bot{width:100%;}
+.noob_trading ul li{width:100%;font-size:0.325rem}
+.noob_trading ul li img{display:none}
+.training_main{padding-top:0;margin-top:0;}
+.training_main_top_title{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding:0.5rem;text-align:left}
+.wp-pagenavi{padding:0.75rem 0;}
+.wp-pagenavi a, .wp-pagenavi span{font-size:0.35rem;padding:0.175rem 0.3rem;margin:0.125rem 0.1rem;}
+.page_content{width:100%;padding:0.125rem;}
+.shipin_box{padding:0;min-height:52.5rem;}
+.shipin_item{width:100%;}
+.page_content_title{font-size:0.45rem;line-height:0.75rem;padding:0.125rem 1.8rem 0.125rem 0.125rem;}
+.page_content_title i{width:0.35rem;height:0.35rem;right:0.75rem;top:0.375rem;}
+.page_content_text{padding:0.5rem 0 0.5rem 0.5rem;}
+.page_content_text p{line-height:0.5rem;margin-bottom:0.25rem}
+.shipin_item .video_box{height:3.95rem;}
+.shipin_box .shipin_item .text_box{font-size:0.325rem;padding-top:0.5rem;padding-bottom:0.5rem;}
+
+/*外汇词典*/
+.dictionary_display{height:7.5rem;padding:0;padding-top:2.5rem;}
+.dictionary_display_center{padding:0;border:none;}
+.dictionary_display_center>p:first-child{display:none}
+.dictionary_display_center>p:nth-child(2){font-size:0.6rem;line-height:1rem}
+.dictionary_display_center>p:last-child{font-size:0.875rem;line-height:1.0rem}
+.dictionary_text{display:none}
+.dictionary_main_top label{display:none}
+.dictionary_main_bot{width:100%;}
+.dictionary_main{margin-top:0px;padding-top:0;}
+.company_overview_content h3{font-size:0.325rem;display:block;position:relative;border:1px solid #8d8d8d;padding:0.25rem;text-align:left;color:#333;background-color:#e4e4e4;margin-top:0.5rem;}
+.company_overview_content h3 i{ display:block; width:0.35rem; height:0.35rem; background:url(../images/plus.png) left bottom /contain no-repeat; position:absolute; right:0.25rem; top:0.3rem;}
+.company_overview_content h3.selected i{background-image:url(../images/minus.png);}
+.company_overview_content p{display:none;padding:0.25rem;font-size:0.325rem;}
+.company_overview_content ul{display:none}
+.company_overview_content_title{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding:0.5rem;text-align:center}
+
+/*客服小智*/
+.helpcenter_display{height:7.5rem;padding:0;padding-top:2.5rem;}
+.helpcenter_display_center{padding:0;border:none;}
+.helpcenter_display_center>p:first-child{display:none}
+.helpcenter_display_center>p:nth-child(2){font-size:0.6rem;line-height:1rem;}
+.helpcenter_display_center>p:last-child{font-size:0.875rem;line-height:1.0rem}
+.helpcenter_text{display:none}
+.helpcenter_main_top label{display:none}
+.helpcenter_main{padding-top:0;}
+
+.helpcenter_main_bot_kefu{background:none;padding-top:0;min-height:7.5rem;}
+.helpcenter_main_bot_kefu>h1{display:none}
+.helpcenter_main_bot_kefu>p{display:none}
+.helpcenter_main_bot_kefu_bot .span1{display:none}
+.helpcenter_main_bot_kefu_bot .span2{border:none;padding:0;}
+.helpcenter_main_bot_kefu_bot .span2 h1{display:none}
+.helpcenter_main_bot_kefu_bot .span2 p{color:#333;margin-top:0.25rem;font-size:0.325rem}
+.helpcenter_main_bot_kefu_bot{width:90%;}
+.helpcenter_main_bot_kefu_bot span{width:100%;}
+.helpcenter_main_bot{background-color:transparent;min-height:17.5rem}
+.helpcenter_main_bot.help{padding:0.25rem;}
+.helpcenter_main_content .triangle_border_right{display:none}
+.helpcenter_main_content_change{display:none}
+.helpcenter_main_content1.h1{color:#333;background:transparent;width:100%;height:auto;}
+.helpcenter_main_content1.h2{color:#333;background:transparent;width:100%;height:auto;}
+.helpcenter_main_content{background:transparent;width:100%;margin-top:0px;height:10.5rem;box-shadow:none}
+.helpcenter_main_content2{padding-top:0.5rem;padding-left:0.5rem;background-color:transparent;width:100%;height:8.625rem;}
+.helpcenter_main_content1 .text{font-size:0.45rem;color:#333;width:100%;margin-left:0.5rem;margin-top:0;font-weight:bold;}
+.helpcenter_main_content2_ul_t h3{font-size:0.45rem;padding-top:0.5rem;}
+.helpcenter_main_content2_ul_t p{font-size:0.325rem}
+.helpcenter_main_content2_ul_b a{padding:0.125rem 0.375rem 0.125rem 0.375rem;font-size:0.325rem}
+.helpcenter_main_content2 .u1 li{width:100%;height:auto;}
+.helpcenter_main_content2 .u2 li{width:100%;height:auto;}
+.helpcenter_main_content2_ul_t{height:auto;}
+.helpcenter_main_content.h{margin-top:0px;}
+.helpcenter_main_bot_title{display:block;font-size:0.6rem;color:#333;font-weight:bold;padding:0.5rem;text-align:center}
+.default_template h3{font-size:0.4rem;}
+.default_template h3.selected i{background-image:url(../images/minus.png);}
+.company_overview_content{width:100%;}
+.table_content{display:none}
+.table_content table{width:100%;}
+
+/*平台公告*/
+.announcement_display_center>p:last-child{font-size:0.875rem;line-height:1.0rem}
+.announcement_display{height:7.5rem;padding:0;padding-top:2.5rem;}
+.announcement_display_center{padding:0;border:none;}
+.announcement_display_center>p:first-child{display:none}
+.announcement_display_center>p:nth-child(2){font-size:0.6rem;line-height:1rem;}
+.announcement_text{display:none}
+.announcement_main_top label{display:none}
+.announcement_main_bot{width:100%;padding-top:0;}
+.announcement_main_bot .latest .latest_news{width:100%;float:none;}
+.announcement_main_bot .latest{height:auto;}
+
+.announcement_main_bot .latest .latest_news{margin-top:0.25rem}
+.announcement_main{min-height:17.5rem;margin-top:0px;}
+.announcement_main_bot dl{display:block;border-bottom:1px solid #d6d6d6;}
+.announcement_main_bot dl dt{width:90%;}
+.announcement_main_bot dl dt img{margin-left:0.5rem;}
+.announcement_main_bot dl dd h2{color:#9b740f;padding:0.25rem;font-size:0.4rem;height:auto;font-weight:bold}
+.announcement_main_title{display:block;font-size:0.6rem;color:#333;font-weight:bold;padding:0.5rem;text-align:center}
+.announcement_main_bot .information li{width:48%;margin-left:1%;}
+.announcement_main_bot .latest .latest_news .latest_news_content .title{font-size:0.5rem;padding:0.25rem 0.25rem;}
+.announcement_main_bot .latest .latest_news .latest_news_content .content{font-size:0.3rem;padding-top:0.25rem;}
+.announcement_main_bot .latest .latest_news .latest_news_content .time{font-size:0.325rem;padding: 0.125rem;}
+.announcement_main_bot .former ul li{line-height:1.0rem;font-size:0.325rem}
+.announcement_main_bot dl dd p.abs{font-size:0.325rem}
+.announcement_main_bot dl dd p.time{font-size:0.325rem}
+.announcement_main_bot .information li{max-height:8.0rem}
+
+/*合作方式*/
+.cooperation_display{display:block;height:7.5rem;padding:0;padding-top:2.5rem;width:100%;text-align:center;background:url(../images/broker_bg.jpg) center center no-repeat;background-size:cover;
+}
+.cooperation_display_center>p:first-child{color:#fff;font-size:0.6rem;display:inline-block;text-align:center;border-bottom:1px solid #fff;font-weight:bold;line-height:1rem}
+.cooperation_display_center>p:last-child{font-size:0.875rem;text-align:center;letter-spacing:0.2rem;font-weight:bold;color:#fff;line-height:1rem}
+.trader_display{display:none}
+.trader_text{display:none}
+.trader_view{display:none}
+.trader_intro{display:none}
+.manager_display{display:none}
+.manager_text{display:none}
+.manager_view{display:none}
+.manager_advantage{display:none}
+.broker_display{display:none}
+.broker_text{display:none}
+.broker_view{display:none}
+.broker_intro{display:none}
+.broker_bottom{padding:0;}
+.broker_bottom_text{width:100%;}
+.broker_bottom_text_t .i1,.broker_bottom_text_t .i2{display:none}
+.broker_bottom_text_b{padding:0;}
+.broker_bottom_text_b a{display:block;width:60%;margin:0.5rem auto;}
+.cooperation_text_title{display:block;text-align:left;font-size:0.6rem;color:#333;font-weight:bold;padding-left:0.5rem;padding-right:0.5rem;}
+.cooperation_text_content{display:block;color:#595959;padding:0.5rem;}
+.cooperation_text_image{display:block;width:100%;margin-bottom:0.5rem;}
+.cooperation_text_image img{display:block;margin:0 auto;}
+.broker_bottom_text_t h1{font-size:0.9rem;line-height:0.9rem}
+.broker_bottom_text_b a{height:1.0rem;line-height:1.0rem;font-size:0.4rem}
+.broker_bottom_text{padding:0.25rem 0.5rem;}
+.cooperation_text_content{font-size:0.325rem}
+.broker_bottom_text_t p{font-size:0.325rem;letter-spacing: 0.125rem;}
+/*提交工单*/
+.crumb{display:none;}
+.submit_head{display:none}
+.submit_banner{display:none}
+.submit_content{width:90%;margin:0;padding:0.25rem;margin:0 auto;}
+.submit_content .content3 textarea{width:7.5rem;}
+.submit_content span{display:none}
+.submit_content_title{display:block;text-align:left;font-size:0.6rem;color:#333;padding:0.5rem;margin-left:0.25rem;}
+.submit_content .img_show{display:none}
+.submit_content .content2 .file_text{display:none}
+.submit_content .submitbtn{margin-left:0;border-radius:15px;width:3.75rem;margin:0 auto;}
+
+}

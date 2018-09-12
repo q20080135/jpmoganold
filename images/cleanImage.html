@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>图片压缩拷贝</title>
+
+<style type="text/css">
+.contentBox {
+    width: 400px;
+    margin: 20px auto;
+}
+.centerBox {
+    text-align: center;
+}
+.rowBox {
+    margin-bottom: 30px;
+}
+</style>
+
+</head>
+<body>
+
+<form id="form" action="./image_copy.php">
+    <div class="contentBox">
+        <div class="rowBox">
+            <span>请输入要拷贝的图片目录</span>
+            <input type="text" id="orignDir" maxlength="20" name="orignDir" />
+        </div>
+        <div class="rowBox">
+            <span>请输入压缩后的存放目录</span>
+            <input type="text" id="arriveDir" maxlength="20" name="arriveDir" />
+        </div>
+        <div class="rowBox">
+            <span>请输入压缩比率(0-1)</span>
+            <input type="text" id="ratio" value="0.8" maxlength="3" name="ratio" />
+        </div>
+        <div class="centerBox">
+            <button type="submit" id="btnUpdate">提交</button>
+        </div>
+    </div>
+</form>
+
+</body>
+</html>

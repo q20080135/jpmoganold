@@ -1,0 +1,14 @@
+{
+    "name": "web/jingtao",
+    "require": {
+        "intervention/image": "^2.4",
+        "monolog/monolog": "1.23.0",
+        "zzzeee/linpackagist": "^1.0"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}

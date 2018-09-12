@@ -1,0 +1,17 @@
+{
+    "name": "zzzeee/linpackagist",
+    "description": "composer 初学测试！！！",
+    "authors": [
+        {
+            "name": "lin zeyong",
+            "email": "285489996@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {"LINPackagist\\": "src/LINPackagist"}
+    },
+    "minimum-stability": "stable"
+}

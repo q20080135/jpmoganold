@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* 你自己的样式 */
+
+.widget{
+    background: #f9ffff;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* dataTables 数据列表样式 */
+.dataTables_filter{
+    display: none;
+}
+td.dataTables_empty{
+    text-align: center;
+}
+.iRecordsTotal,.iRecordsDisplay{
+    display: none;
+}
+.iRecordsDisplay{
+    margin-right: 10px;
+}
+div#data_list_processing{
+    color: #c00;
+    display: inline-block;
+}
+div#data_list_length label{
+    margin-right: 10px;    
+}
+/* //dataTables 数据列表样式 */
+
+#form_search_list div {
+    line-height: 42px;
+}
+#form_search_list .select-box {
+    line-height: 22px;
+}
+#form_search_list input {
+    height: 32px;
+}
+p.textarea-numberbar {
+    color: rgba(0, 51, 255, 0.51);
+}
+.Hui-tags{
+    padding: 5px !important;
+    box-sizing: border-box;   
+    overflow: hidden; 
+}
+.Hui-tags-token {
+    color:#072867 !important;
+}
+div.Hui-tags-iptwrap{
+    line-height:initial;
+}
+ul.dropDown-menu li{
+    cursor: pointer;
+}
+ul.dropDown-menu li.change_state:hover {
+    background: #fdf6c4;
+}
+input.filter {width: 150px;}

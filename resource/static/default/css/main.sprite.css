@@ -1,0 +1,16 @@
+.logo {display: inline-block; width: 275px; height: 122px; background-position: 0 0; no-repeat; }
+.admin:hover { width: 100px; height: 100px; background-position: 0 -124px; no-repeat; }
+.admin { width: 100px; height: 100px; background-position: -102px -124px; no-repeat; }
+.provider:hover { width: 100px; height: 100px; background-position: 0 -226px; no-repeat; }
+.provider { width: 100px; height: 100px; background-position: -204px -124px; no-repeat; }
+
+.logo, .admin:hover, .admin, .provider:hover, .provider { background-image: url(../images/main.png?20170815174306); }
+body { background: #F9F9F9; margin: 0; }
+#btn_set { font-size: 0; margin-top: 145px; }
+.admin { margin-left: 75px; }
+#btn_set div { display: inline-block; }
+#wraper { margin: 0 auto; width: 375px; text-align: center; }
+
+/* 新增第二入驻商样式 */
+div#provider2 { background-position: -102px -226px; }
+div#provider2:hover { background-position: -204px -226px; }
