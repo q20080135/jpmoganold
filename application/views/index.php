@@ -114,9 +114,8 @@ Widget::load('front',array('view'=>'header'));
    <div class="video_wrap"> 
     <div class="video_shadow"></div> 
     <video id="home_video_box" width="100%"  muted="" autoplay="" loop="" poster=""> 
-     <source src="/resource/static/front/video/videoplayback1.webm" type="video/webm"></source> 
-     <source src="/resource/static/front/video/videoplayback.ogv" type="video/ogv"></source> 
-     <source src="/resource/static/front/video/videoplayback.mp4" rel="prefetch" type="video/mp4"></source> 
+     
+     <source src="/resource/static/front/video/videoplayback2.mp4?2awe" rel="prefetch" type="video/mp4"></source> 
     </video> 
    </div> 
    <div class="home_silider_box"> 
