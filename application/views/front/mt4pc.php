@@ -200,67 +200,13 @@ Widget::load('front',array('view'=>'header'));
             </div>
             <div class="mt4mobile_main_bot_right">
               <img src="/resource/static/front/images/mt4mobile.png">
-              <a href="" style="text-decoration:none" class="androidguide">Android安装登录指南</a>
-              <a href="" style="text-decoration:none" class="iosguide">ios安装登录指南</a>
+              <a href="/resource/static/front/file/mt4mobile.pdf"  target="_blank" style="text-decoration:none" class="androidguide">MT4手机端操作指南</a>
+            
             </div>
           </div>
         </div>
       </div>
-      <div class="mt4pc_main_top" >
-        <input type="radio" name="mt4pc" id="mt4pc3">   
-        <label for="mt4pc3">APP下载</label>
-        <div class="mt4pc_main_bot" style="background-color:#fff">
-          <div class="mt4pc_main_bot_content">
-            <div class="mt4pc_main_title">
-              JPMogan APP
-            </div>
-            <div class="mt4app_main_bot_top">
-              <h1>JPMogan APP</h1>
-              <i></i><br><br><br>
-              <p>JPMogan是一款为海内外投资者量身定制的金融衍生品在线交易平台</p>
-              <p>JPMogan APP是一款集在线交易、行情趋势、新闻咨询、培训教育、账户管理为一体的外汇交易服务软件，由澳洲老牌外汇经纪商JPMogan为外汇投资爱好者打造。强大的使用功能，人性化的交互设计，让交易从此嗨起来。海内存神器，交易任我行。</p>
-            </div>    
-            <div class="mt4app_main_bot_left">
-              <img src="/resource/static/front/images/mt4app_main_bot_left.png"> 
-            </div>
-            <div class="mt4app_main_bot_right">
-              <ul>
-                <li>
-                  <i class="i1"></i>
-                  <div class="mt4app_main_bot_ul">
-                    <h1>行情播报</h1>
-                    <p>可免费随时随地查看黄金、白银、外汇等多个交易品种的行情数据，数据传输快速稳定</p>
-                  </div>
-                </li>
-                <li>
-                  <i class="i2"></i>
-                  <div class="mt4app_main_bot_ul">
-                    <h1>独家分析</h1>
-                    <p>每日黄金、白银评论分析推送，以及各大财经门户的金评分析、实时资讯，给予用户全面客观的技术分析总结和建议</p>
-                  </div>
-                </li>
-                <li>
-                  <i class="i3"></i>
-                  <div class="mt4app_main_bot_ul">
-                    <h1>宏观速递</h1>
-                    <p>收罗全球范围内每日最新贵金属实时热点新闻，第一时间掌握市场的变动资讯，从宏观经济面了解经济状况，并有重要财经日历实时更新</p>
-                  </div>
-                </li>
-                <li>
-                  <i class="i4"></i>
-                  <div class="mt4app_main_bot_ul">
-                    <h1>实用体验</h1>
-                    <p>快速开立真实、体验账户，实时登录注资取款，在线客服咨询等多种实用功能，让您一机在手，交易无忧</p>
-                  </div>
-                </li> 
-              </ul>
-              <div class="mt4mobile_android">安卓版下载</div>
-              <img src="/resource/static/front/images/mt4app_main_bot_right2.png" class="img2">
-              <img src="/resource/static/front/images/mt4app_main_bot_right1.png" class="img1">   
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>    
   </div>
   <?php

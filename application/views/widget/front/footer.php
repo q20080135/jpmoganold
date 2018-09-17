@@ -14,7 +14,7 @@
      </div> 
      <div class="footer_menu"> 
       <ul id="menu-footer-menu" class="footer_nav">
-       <li class="menu-item"><p>关于JPMogan</p>
+       <li class="menu-item"><p>关于Mogan</p>
         <ul>
           <li><a href="/brand_story.html">公司介绍</a></li>
           <li><a href="/activity.html">市场活动</a></li>
@@ -41,7 +41,7 @@
           <li><a href="/dictionary.html">外汇词典</a></li>
         </ul>
        </li> 
-       <li class="menu-item"><p>Mogan资讯</p>
+       <li class="menu-item"><p>客户须知</p>
         <ul>
           <li><a href="/helpcenter.html">帮助中心</a></li>
           <li><a href="/regulations.html">法律法规</a></li>
@@ -72,7 +72,7 @@
 </body>
 </html>
 
-<script>
+<!-- <script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
@@ -80,4 +80,10 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
+</script> -->
+
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<script type='text/javascript'>
+(function(){ var widget_id = 'MzgA0pwGZV';var d=document;var w=window;function l(){var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
 </script>
+<!-- {/literal} END JIVOSITE CODE -->

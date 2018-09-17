@@ -24,7 +24,7 @@ Widget::load('front',array('view'=>'header'));
   <script type="text/javascript" src="/resource/static/front/js/app.js"></script> 
   <script type="text/javascript">
     
-    // 客服小智
+    // 客服Service
 
     $("#drag").mouseover(function(){
          $(this).children("#question").stop().slideDown("fast");
@@ -109,24 +109,47 @@ Widget::load('front',array('view'=>'header'));
         <div class="datadownload_main_bot">
             <dl> 
              <dd> 
-              <span>JPMogan品牌介绍</span>  
-              <a href="/resource/static/front/file/ppjs.pdf" download="" target="_blank" class="a1">PDF下载</a> 
-              <a href="/resource/static/front/file/ppjs.pdf" target="_blank" class="a2">在线预览</a>
-              <embed src="/resource/static/front/file/ppjs.pdf" type="application/pdf" width="100%" height="100%">
+              <span>JPMogan宣传介绍页2pages</span>  
+              <a href="/resource/static/front/file/jieshao.rar" download="" target="_blank" class="a1">点击下载</a> 
+              <embed src="/resource/static/front/file/jieshao.rar" type="application/pdf" width="100%" height="100%">
+             </dd> 
+            </dl>
+
+
+
+            <dl> 
+             <dd> 
+              <span>JPMogan宣传册（打印版）</span>  
+              <a href="/resource/static/front/file/" download="" target="_blank" class="a1">点击下载</a> 
+              <embed src="/resource/static/front/file/xczldy.zip" type="application/pdf" width="100%" height="100%">
              </dd> 
             </dl>
             <!-- 移动端web -->
            
             <div class="data_content"> 
               <div class="data_content_title">
-               JPMogan品牌介绍
+               JPMogan宣传介绍页2pages
                <i></i>
               </div> 
               <div class="data_content_text" style="overflow: hidden;"> 
                <div class="default_template"> 
-                  <a href="/resource/static/front/file/ppjs.pdf" download="" target="_blank" class="a1">点击下载</a>
-                  <a href="/resource/static/front/file/ppjs.pdf" target="_blank" class="a2">在线预览</a> 
-                  <embed src="/resource/static/front/file/ppjs.pdf" type="application/pdf" width="100%" height="100%">
+                  <a href="/resource/static/front/file/jieshao.rar" download="" target="_blank" class="a1">点击下载</a>
+                  <embed src="/resource/static/front/file/jieshao.rar" type="application/pdf" width="100%" height="100%">
+                <div class="clear"></div> 
+               </div> 
+              </div> 
+            </div>
+
+
+            <div class="data_content"> 
+              <div class="data_content_title">
+               JPMogan宣传册（打印版）
+               <i></i>
+              </div> 
+              <div class="data_content_text" style="overflow: hidden;"> 
+               <div class="default_template"> 
+                  <a href="/resource/static/front/file/xczldy.zip" download="" target="_blank" class="a1">点击下载</a>
+                  <embed src="/resource/static/front/file/xczldy.zip" type="application/pdf" width="100%" height="100%">
                 <div class="clear"></div> 
                </div> 
               </div> 
@@ -149,15 +172,44 @@ Widget::load('front',array('view'=>'header'));
              </dd> 
              <dd> 
               <span>JPMogan合作伙伴流程</span> 
-              <a href="/resource/static/front/file/JPMogan1.pdf" download="" target="_blank" class="a1">PDF下载</a> 
-              <a href="/resource/static/front/file/JPMogan1.pdf" target="_blank" class="a2">在线预览</a>
-              <embed src="/resource/static/front/file/JPMogan1.pdf" type="application/pdf" width="100%" height="100%">
+              <a href="/resource/static/front/file/cqs1.pdf" download="" target="_blank" class="a1">PDF下载</a> 
+              <a href="/resource/static/front/file/cqs1.pdf" target="_blank" class="a2">在线预览</a>
+              <embed src="/resource/static/front/file/cqs1.pdf" type="application/pdf" width="100%" height="100%">
              </dd> 
-             <dd> 
+              <dd> 
               <span>JPMogan客户开户流程</span> 
-              <a href="/resource/static/front/file/JPMogan2.pdf" download="" target="_blank" class="a1">PDF下载</a> 
-              <a href="/resource/static/front/file/JPMogan2.pdf" target="_blank" class="a2">在线预览</a>
-              <embed src="/resource/static/front/file/JPMogan2.pdf" type="application/pdf" width="100%" height="100%">
+              <a href="/resource/static/front/file/cqs2.pdf" download="" target="_blank" class="a1">PDF下载</a> 
+              <a href="/resource/static/front/file/cqs2.pdf" target="_blank" class="a2">在线预览</a>
+              <embed src="/resource/static/front/file/cqs2.pdf" type="application/pdf" width="100%" height="100%">
+            </dd> 
+             <dd> 
+              <span>MT4PC操作指南</span> 
+              <a href="/resource/static/front/file/mt4pc.pdf" download="" target="_blank" class="a1">PDF下载</a> 
+              <a href="/resource/static/front/file/mt4pc.pdf" target="_blank" class="a2">在线预览</a>
+              <embed src="/resource/static/front/file/mt4pc.pdf" type="application/pdf" width="100%" height="100%">
+             </dd> 
+
+             <dd> 
+              <span>MT4手机操作指南</span> 
+              <a href="/resource/static/front/file/mt4mobile.pdf" download="" target="_blank" class="a1">PDF下载</a> 
+              <a href="/resource/static/front/file/mt4mobile.pdf" target="_blank" class="a2">在线预览</a>
+              <embed src="/resource/static/front/file/mt4mobile.pdf" type="application/pdf" width="100%" height="100%">
+             </dd> 
+
+            
+
+            <dd> 
+              <span>JPMogan出金指南</span> 
+              <a href="/resource/static/front/file/cj.pdf" download="" target="_blank" class="a1">PDF下载</a> 
+              <a href="/resource/static/front/file/cj.pdf" target="_blank" class="a2">在线预览</a>
+              <embed src="/resource/static/front/file/cj.pdf" type="application/pdf" width="100%" height="100%">
+             </dd> 
+
+             <dd> 
+              <span>JPMogan入金指南</span> 
+              <a href="/resource/static/front/file/rj.pdf" download="" target="_blank" class="a1">PDF下载</a> 
+              <a href="/resource/static/front/file/rj.pdf" target="_blank" class="a2">在线预览</a>
+              <embed src="/resource/static/front/file/rj.pdf" type="application/pdf" width="100%" height="100%">
              </dd> 
 
 

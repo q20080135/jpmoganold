@@ -3,7 +3,7 @@ if (! defined('BASEPATH'))
     exit('No direct script access allowed');
 
 /**
- * 客服小智模型类
+ * 客服Service模型类
  * 
  * @author 齐福
  *         创建时间 ： 2018年7月4日上午11:31:12

@@ -41,10 +41,11 @@ Widget::load('front',array('view'=>'header'));
       </div>
       <i></i>
       <span>
-        <p>2013年，一家立足澳洲面向全球的金融交易服务商——JPMogan在澳大利亚墨尔本CBD创立。经过13年的砥砺发展，从基础设施架构、产品多样性、流动性深度，到专业的教育培训、行业首屈一指的增值服务、先进的交易工具，JPMogan已成为了全球备受瞩目的金融之星。
-        </p>
-        <p>把每一件事都做到极致，下一步美好会自然呈现。在大匠运斤的金融精神下，JPMogan弘毅致远，致力于全球交易量最大的金融市场，深入开展外汇差价合约业务，并在旗下设立金融衍生品交易品牌JPMogan，独立发展全球外汇保证金交易。
-        </p>
+        <p>JPmogan公司成立于2007年1月，迄今为止已成为全球十大最受欢迎的金融在线交易经纪商，并始终保持着强劲的发展趋势。创新的服务以及先进的技术条件令JPmogan成为了全球百万客户的共同选择。</p>
+        <p style="padding: 10px 19% 0px 19%;">JPmogan全称为Morgan Asia Pacific Asset Management Co.,    Limited，总部位于美国纽约，公司的管理团队皆由投行精英组成，曾在摩根大通等投资机构及银行拥有超过15年的金融领域丰富经验。 目前行业内的金融交易经纪商或多或少总是不能带给交易者满意的服务。没有严格的监管，点差高，划点严重是普遍的现象。而我们决心改变这些！我们承诺坚持行业的透明性和安全底线，始终提供给全球交易员一个公平、透明,、诚信的交易环境。
+        JPmogan始终坚持以客户为本, </p>
+        <p>实现个性化交易定制服务器。我们有专业团队每日进行市场分析和深度研究，誓为每位客户提供最及时的报价和最快速的执行；我们还能为有经验的交易者提供各种丰富的解决方案, 同时也能让交易的初学者受益匪浅。.</p>
+
       </span>
       <div style="width:235px;height:235px;position:relative;left:44.8%;top:60px">
         <img src="/resource/static/front/images/new_content_profile2.png">
@@ -52,87 +53,27 @@ Widget::load('front',array('view'=>'header'));
     </div>
     <div class="mobile_content_profile">
       <h1>公司简介</h1>
-      <p>2013年，一家立足澳洲面向全球的金融交易服务商——JPMogan在澳大利亚墨尔本CBD创立。经过13年的砥砺发展，从基础设施架构、产品多样性、流动性深度，到专业的教育培训、行业首屈一指的增值服务、先进的交易工具，JPMogan已成为了全球备受瞩目的金融之星。
-      <p>我们衷心希望：做到行业内极致的体验。把每一件事都做到极致，下一步美好自会随之而来。</p>
-      <p>当今世界，在匠心独俱的金融精神下，JPMogan杨帆起航，致力于全球交易量最大的金融市场，深入开展外汇差价合约业务，并在旗下设立金融衍生品交易品牌，独立发展全球外汇保证金交易。在这片蓝海下，JPMogan秉持着一往无前、深化服务的理念，进一步开拓全球金融的未来。
-      </p>
+      <p>JPmogan公司成立于2007年1月，迄今为止已成为全球十大最受欢迎的金融在线交易经纪商，并始终保持着强劲的发展趋势。创新的服务以及先进的技术条件令JPmogan成为了全球百万客户的共同选择。</p>
+      <p>JPmogan全称为Morgan Asia Pacific Asset Management Co.,    Limited，总部位于美国纽约，公司的管理团队皆由投行精英组成，曾在摩根大通等投资机构及银行拥有超过15年的金融领域丰富经验。 目前行业内的金融交易经纪商或多或少总是不能带给交易者满意的服务。没有严格的监管，点差高，划点严重是普遍的现象。而我们决心改变这些！我们承诺坚持行业的透明性和安全底线，始终提供给全球交易员一个公平、透明,、诚信的交易环境。
+        JPmogan始终坚持以客户为本, </p>
+      <p>实现个性化交易定制服务器。我们有专业团队每日进行市场分析和深度研究，誓为每位客户提供最及时的报价和最快速的执行；我们还能为有经验的交易者提供各种丰富的解决方案, 同时也能让交易的初学者受益匪浅。.</p>
     </div>
     <div class="mobile_content_img">
       <img src="/resource/static/front/images/mobile_content_img.jpg">
     </div>
     <div class="new_content_yewu">
-      <h2>全球经纪业务</h2>
-      <h3>作为国际金融行业中的集大成者，JPMogan集团业务范围涵盖外汇保证金、澳洲股市、债券、基金、现金以及国际股票等资产领域，成为澳洲乃至全球客户首选的金融交易服务商。<br><br>
-      经过13年的发展，其旗下的交易品牌JPMogan已在墨尔本、泰国、台湾、香港、上海开立服务中心，面向全球个体及机构客户提供近50种金融产品——36种外汇、7种指数、3种商品，包括深受客户青睐的八大货币对，黄金、白银、原油，美指、欧指、澳洲，以及CHINA50、恒生指数等。
-      </h3>
+      <h2>商业目标</h2>
+      <h4>JPmogan的目标是为客户提供无与伦比的极致交易体验以及金融市场中最好的交易环境。</h4>
+
+      <h2 style="padding-top:30px;">企业价值观 </h2>
+      <h4 style="margin-top:0px;padding-left:29%;padding-right:29%;text-align:left;line-height: 40px;">我们的每一个决策都以客户为重点。<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们的核心价值观是： <br>
+      公正、透明、安全、高效、创新 用我们不断的发展和创新，来实现超高的用户满意度。</h4>
+      
     </div>
 
-    <div class="new_content_history">
-      <div class="new_content_history_top">
-        <p><i style="display:inline-block;width:50px;border-bottom:1px solid #b09373;position:relative;top:-5px;left:-30px"></i><b style="position:relative;top:-3px;left:-20px;display:inline-block;width:6px;height:6px;border-radius:3px;background-color:#bfbfbf"></b>
-          <span>品牌发展历史</span>
-          <b style="position:relative;top:-3px;left:20px;display:inline-block;width:6px;height:6px;border-radius:3px;background-color:#bfbfbf"></b><i style="position:relative;top:-5px;left:30px;display:inline-block;width:50px;border-bottom:1px solid #b09373"></i>
-        </p>
-        <p style="color:#444;font-size:28px;font-weight:bold">BRAND DEVELOPMENT HISTORY</p>
-      </div>
-      <i></i>
-      <div class="new_content_history_bg"></div>
-      <div class="new_content_history_bot">
-        <ul>
-          <li>
-            <img src="/resource/static/front/images/2018.png">
-            <span >JPMogan进军泰国市场，参加国际性展会ASIA TRADERS FAIR & GALA NIGHT-THAILAND</span>
-            <i style="width:60px;display:inline-block;border-bottom:3px solid #b09373;position:absolute;left:52px;top:19%"></i>
-            <i style="display:inline-block;width:24px;height:24px;background:url(./images/dot.png) center center no-repeat;position:absolute;left:17px;top:10%;"></i>
-          </li>
-          <li>
-            <img src="/resource/static/front/images/2017.png">
-            <span>JPMogan深耕中国市场，开创了行业56场专业沙龙论坛的最高纪录，荣获5项国际大奖</span>
-            <i style="width:60px;display:inline-block;border-bottom:3px solid #b09373;position:absolute;left:52px;top:34%"></i>
-            <i style="display:inline-block;width:24px;height:24px;background:url(./images/dot.png) center center no-repeat;position:absolute;left:17px;top:25%;"></i>
-          </li>
-          <li>
-            <img src="/resource/static/front/images/2016.png">
-            <span>JPMogan进军中国市场，在上海成立服务中心，并获得了2项国内大奖，2项国际大奖</span>
-            <i style="width:60px;display:inline-block;border-bottom:3px solid #b09373;position:absolute;left:52px;top:50%"></i>
-            <i style="display:inline-block;width:24px;height:24px;background:url(./images/dot.png) center center no-repeat;position:absolute;left:17px;top:40%;"></i>
-          </li>
-          <li>
-            <img src="/resource/static/front/images/2015.png">
-            <span>在澳洲推出外汇保证金业务，布局亚洲市场</span>
-            <i style="width:60px;display:inline-block;border-bottom:3px solid #b09373;position:absolute;left:52px;top:65%"></i>
-            <i style="display:inline-block;width:24px;height:24px;background:url(./images/dot.png) center center no-repeat;position:absolute;left:17px;top:55%;"></i>
-          </li>
-          <li>
-            <img src="/resource/static/front/images/2014.png">
-            <span>JPMogan成为全球金融交易服务商</span>
-            <i style="width:60px;display:inline-block;border-bottom:3px solid #b09373;position:absolute;left:52px;top:80%"></i>
-            <i style="display:inline-block;width:24px;height:24px;background:url(./images/dot.png) center center no-repeat;position:absolute;left:17px;top:70%;"></i>
-          </li>
-          <li>
-            <img src="/resource/static/front/images/2013.png">
-            <span>JPMogan在澳大利亚墨尔本创立，发展澳洲业务</span>
-            <i style="width:60px;display:inline-block;border-bottom:3px solid #b09373;position:absolute;left:52px;top:95%"></i>
-            <i style="display:inline-block;width:24px;height:24px;background:url(./images/dot.png) center center no-repeat;position:absolute;left:17px;top:85%;"></i>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="mobile_content_history">
-      <h1>品牌发展历史</h1>
-      <div class="mobile_content_history_left">
-        <img src="/resource/static/front/images/mobile_content_history.jpg">
-      </div> 
-      <div class="mobile_content_history_text">
-        <p>2018年JPMogan进军泰国市场，参加国际性展会ASIA TRADERS FAIR & GALA NIGHT-THAILAND</p>
-        <p>2017年JPMogan深耕中国市场，开创了行业56场专业沙龙论坛的最高纪录，荣获5项国际大奖</p>
-        <p>2016年JPMogan进军中国市场，在香港等地成立服务中心，并获得了2项国内大奖，2项国际大奖</p>
-        <p>在澳洲推出外汇保证金业务，布局亚洲市场</p>
-        <p>2014年JPMogan成为全球金融交易服务商</p>
-        <p>2013年JPMogan在澳大利亚墨尔本创立，发展澳洲业务</p>
-      </div>
-    </div>
-    <div class="new_content_view">
+   
+    <div class="new_content_view" style="margin-top: 0px;">
       <div class="new_content_view_top">
         <p><i style="display:inline-block;width:50px;border-bottom:1px solid #b09373;position:relative;top:-5px;left:-30px"></i><b style="position:relative;top:-3px;left:-20px;display:inline-block;width:6px;height:6px;border-radius:3px;background-color:#bfbfbf"></b>
           <span>行业荣誉大观</span>

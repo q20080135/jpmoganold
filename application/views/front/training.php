@@ -28,7 +28,7 @@ Widget::load('front',array('view'=>'header'));
    </div>
   <script type="text/javascript">
     
-    // 客服小智
+    // 客服Service
 
     $("#drag").mouseover(function(){
          $(this).css("background","url(/resource/static/front/images/kefu1.png) center center no-repeat");
@@ -302,7 +302,7 @@ Widget::load('front',array('view'=>'header'));
                 </div> 
                 <div class="text_box"> 
                  <div class="tit">
-                  4.非农的意义
+                  4.为什么期货展期后会导致账户金额改变
                  </div> 
                  <div class="txt">
                   交易知识科普
@@ -310,26 +310,6 @@ Widget::load('front',array('view'=>'header'));
                 </div> 
                </div> 
 
-
-
-               <div class="shipin_item"> 
-                <div class="video_box"> 
-                 <video width="100%" height="100%" controls="controls"> 
-                  <source src="/resource/static/front/video/005.mp4" type="video/mp4"></source> 
-                 <!--  <source src="/video/Crude_oil_futures_640.mp4.ogv" type="video/ogg"></source> 
-                  <source src="/video/Crude_oil_futures_640.mp4.webm" type="video/webm"></source> --> 
-                 </video> 
-                 <div class="video_back video_back0"></div> 
-                </div> 
-                <div class="text_box"> 
-                 <div class="tit">
-                  1.为什么期货展期后会导致账户金额改变
-                 </div> 
-                 <div class="txt">
-                  交易知识科普
-                 </div> 
-                </div> 
-               </div> 
 
 
 

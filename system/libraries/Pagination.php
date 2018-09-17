@@ -771,7 +771,7 @@ class CI_Pagination {
 	    if  ($this->first_link !== FALSE AND $this->cur_page > ($this->num_links + 1))
 	    {
 	        $first_url = ($this->first_url == '') ? $this->base_url : $this->first_url;
-	        $output .= $this->first_tag_open.'<a '." onclick='".$funname."(0);1return false;'".'href="javascript:void(0)">'.$this->first_link.'</a>'.$this->first_tag_close;
+	        $output .= $this->first_tag_open.'<a '." onclick='".$funname."(0);return false;'".'href="javascript:void(0)">'.$this->first_link.'</a>'.$this->first_tag_close;
 	    }
 	    // Render the "previous" link
 	    if  ($this->prev_link !== FALSE AND $this->cur_page != 1)
@@ -786,12 +786,12 @@ class CI_Pagination {
 	        }
 	        if ($i == 0 && $this->first_url != '')
 	        {
-	            $output .= $this->prev_tag_open.'<a '." onclick='".$funname."(0);2return false;'".'href="javascript:void(0)">'.$this->prev_link.'</a>'.$this->prev_tag_close;
+	            $output .= $this->prev_tag_open.'<a '." onclick='".$funname."(0);return false;'".'href="javascript:void(0)">'.$this->prev_link.'</a>'.$this->prev_tag_close;
 	        }
 	        else
 	        {
 	            $i = ($i == 0) ? '' : $this->prefix.$i.$this->suffix;
-	            $output .= $this->prev_tag_open.'<a '." onclick='".$funname."({$i});3return false;'".'href="javascript:void(0)">'.$this->prev_link.'</a>'.$this->prev_tag_close;
+	            $output .= $this->prev_tag_open.'<a '." onclick='".$funname."({$i});return false;'".'href="javascript:void(0)">'.$this->prev_link.'</a>'.$this->prev_tag_close;
 	        }
 	    }
 	    // Render the pages
@@ -819,7 +819,7 @@ class CI_Pagination {
 	                    $n = ($i == $base_page) ? '' : $i;
 	                    if ($n == '' && $this->first_url != '')
 	                    {
-	                        $output .= $this->num_tag_open.'<a '." onclick='".$funname."(0);4return false;'".'href="javascript:void(0)">'.$loop.'</a>'.$this->num_tag_close;
+	                        $output .= $this->num_tag_open.'<a '." onclick='".$funname."(0);return false;'".'href="javascript:void(0)">'.$loop.'</a>'.$this->num_tag_close;
 	                    }
 	                    else
 	                    {

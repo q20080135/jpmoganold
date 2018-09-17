@@ -24,7 +24,7 @@ Widget::load('front',array('view'=>'header'));
   <script type="text/javascript" src="/resource/static/front/js/app.js"></script> 
    <script type="text/javascript">
     
-    // 客服小智
+    // 客服Service
 
     $("#drag").mouseover(function(){
          $(this).children("#question").stop().slideDown("fast");

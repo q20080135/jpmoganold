@@ -30,7 +30,7 @@ Widget::load('front',array('view'=>'header'));
    </div> -->
   <script type="text/javascript">
     
-    // 客服小智
+    // 客服Service
 
    $("#drag").mouseover(function(){
          $(this).css("background","url(/resource/static/front/images/kefu1.png) center center no-repeat");
@@ -107,25 +107,25 @@ Widget::load('front',array('view'=>'header'));
     <div class="helpcenter_main">
       <div class="helpcenter_main_top">
         <input type="radio" name="helpcenter" id="helpcenter1" checked >   
-        <label for="helpcenter1" id="xiaozhi">客服小智</label>
+        <label for="helpcenter1" id="xiaozhi">客服Service</label>
         <div class="helpcenter_main_bot">
           <div class="helpcenter_main_bot_kefu">
-            <h1>客服小智&nbsp;<i></i>&nbsp;业界最佳客服</h1>
+            <h1>客服Service&nbsp;<i></i>&nbsp;业界最佳客服</h1>
             <p>INDUSTRY BEST CUSTOMER SERVICE</p>
             <div class="helpcenter_main_bot_kefu_bot">
               <span class="span1">
-                <h1>客服小智</h1>
+                <h1>客服</h1>
                 <h1>SERVICE</h1>
               </span>
               <span class="span2">
                 <h1>基本资料</h1>
                 <div class="helpcenter_main_bot_title">
-                  客服小智
+                  客服Service
                 </div>
-                <p>工单处理客服小智,号称"业界最佳客服"，小智常以快速、优质、效率的工作态度，深受众多用户喜爱</p>
+                <p>工单处理客服Service,号称"业界最佳客服"，客服Service常以快速、优质、效率的工作态度，深受众多用户喜爱</p>
                 <h1>自我评价</h1>
                 <p>我常常站在用户角度看待问题，第一时间处理问题，把用户放在首页位置，这是我的工作态度。</p>
-                <p>欢迎提交工单给客服小智，我将竭诚为您服务</p>
+                <p>欢迎提交工单给客服Service，我将竭诚为您服务</p>
               </span>
             </div>
           </div>
@@ -224,8 +224,8 @@ Widget::load('front',array('view'=>'header'));
                 <li>    
                   <div class="helpcenter_main_content2_ul_t">
                     <i  class="i3"></i>
-                    <h3>其他资讯类问题</h3>
-                    <p>JPMogan其他类疑问</p>
+                    <h3>投诉，建议类问题</h3>
+                    <p>若对JPMogan有投诉或建议请点击提交问题</p>
                   </div>
                   <div class="helpcenter_main_content2_ul_b">
                     <a href="">提交问题</a>
@@ -266,9 +266,9 @@ Widget::load('front',array('view'=>'header'));
                   <li>
                     <div class="helpcenter_main_content_change_t">
                       <i  class="i3"></i>
-                      <h3>其他资讯类问题</h3>
+                      <h3>投诉，建议类问题</h3>
                     </div> 
-                    <p>JPMogan其他类疑问</p>
+                    <p>若对JPMogan有投诉或建议请点击提交问题</p>
                     <div class="helpcenter_main_content_change_b">
                       <a href="submit.html?type=5">提交问题</a>
                     </div>     
@@ -307,7 +307,7 @@ Widget::load('front',array('view'=>'header'));
             </div> 
             <div class="page_content_list_nr"> 
              <p><strong>请注意：</strong></p> 
-             <p>1. 客户在申请出金时，账户内应确保有充足的资金可以出金；<br /> 2. 客户在提交【确认申请】时应确保所填写的资料信息正确无误，任何因客户个人原因填写错误而导致无法出金或由此引发的额外费用，将由客户自行承担；<br /> 3. 出金金额为200美元及以下时，JPMogan将收取10美元手续费（2017.8.7开始）。当出金金额大于200美元时，手续费为零。<br /> 4. JPMogan平台，出金一般在后台扣款后的1-3个工作日到账；<br /> 5. 我们严格遵守国际反洗钱法保障您的资金安全。您在JPMogan所提交的任何信息均受到JPMogan加密技术的保护，我们绝不会在未经过您允许的情况下与第三方分享。</p> 
+             <p>1. 客户在申请出金时，账户内应确保有充足的资金可以出金；<br /> 2. 客户在提交【确认申请】时应确保所填写的资料信息正确无误，任何因客户个人原因填写错误而导致无法出金或由此引发的额外费用，将由客户自行承担；<br /> 3.JPmogan出入金时候，手续费为零。<br /> 4. JPMogan平台，出金一般在后台扣款后的1-3个工作日到账；<br /> 5. 我们严格遵守国际反洗钱法保障您的资金安全。您在JPMogan所提交的任何信息均受到JPMogan加密技术的保护，我们绝不会在未经过您允许的情况下与第三方分享。</p> 
              <div class="clear"></div> 
             </div> 
            </div> 
@@ -356,7 +356,7 @@ Widget::load('front',array('view'=>'header'));
         <label for="helpcenter4" id="product">产品问题</label>
         <div class="helpcenter_main_bot" style="background-color:#fff;padding-top:50px">
           
-          <div class="company_overview_content"> 
+          <div class="company_overview_content" style="width: 50%;margin:0 auto; text-align: left;"> 
            <div class="default_template"> 
             <div class="helpcenter_main_bot_title">
                产品问题
@@ -1200,7 +1200,7 @@ Widget::load('front',array('view'=>'header'));
 
         </div>
       </div>
-      <div class="helpcenter_main_top" >
+      <div class="helpcenter_main_top"   style="width: 50%;margin:0 auto; text-align: left;">
         <input type="radio" name="helpcenter" id="helpcenter5">   
         <label for="helpcenter5" id="trade">交易问题</label>
         <div class="helpcenter_main_bot" style="background-color:#fff;padding-top:50px">

@@ -24,6 +24,7 @@
 .mt4mobile_android{display:none}
 .datadownload_title{display:none}
 .linkus_message_title{display:none}
+.mt4mobile_ios{display:none}
 .data_content{display:none}
 .training_main_top_title{display:none}
 .company_overview_content_title{display:none}
@@ -440,7 +441,7 @@
 .company_overview_content ul{display:none}
 .company_overview_content_title{display:block;font-size:0.75rem;color:#333;font-weight:bold;padding:0.5rem;text-align:center}
 
-/*客服小智*/
+/*客服Service*/
 .helpcenter_display{height:7.5rem;padding:0;padding-top:2.5rem;}
 .helpcenter_display_center{padding:0;border:none;}
 .helpcenter_display_center>p:first-child{display:none}

@@ -29,7 +29,7 @@ Widget::load('front',array('view'=>'header'));
    </div> -->
   <script type="text/javascript">
     
-    // 客服小智
+    // 客服Service
 
    $("#drag").mouseover(function(){
          $(this).css("background","url(/resource/static/front/images/kefu1.png) center center no-repeat");
@@ -92,11 +92,11 @@ Widget::load('front',array('view'=>'header'));
     </div>
     <div class="submit_head">
       <div class="border_color"></div>
-      客服小智:提交工单
+      客服Service:提交工单
     </div>
     <div class="submit_banner">
       <img src="/resource/static/front/images/submit_banner.png">
-       请尽量清晰详尽的描述您的问题，以便客服小智能够快速帮您解决问题！感谢您的配合！
+       请尽量清晰详尽的描述您的问题，以便客服Service能够快速帮您解决问题！感谢您的配合！
     </div>
     <div class="submit_content_title">
       提交工单

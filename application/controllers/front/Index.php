@@ -314,4 +314,11 @@ class Index extends MY_Controller
         
     }
 
+       public function getsina(){
+        $hlurl='http://hq.sinajs.cn/list=hf_XAU,hf_XAG,hf_CL,hf_OIL,hf_CHA50CFD,EURUSD,sh000300'; 
+        $html = file_get_contents($hlurl);
+        echo $html;
+    }
+
+
 }

@@ -72,15 +72,7 @@ Widget::load('front',array('view'=>'header'));
           <col width="20%">
           <col width="20%">   
         </colgroup>
-        <thead>
-          <th>热门货币对</th>
-          <th>最小交易手数</th>
-          <th>最大交易手数</th>
-          <th>合约单位</th>
-          <th>保证金比例<br>(视账户净值及余额情况而定)</th>
-          <th>交易时间(北京时间)</th>
-          <th>休息时间(北京时间)</th>
-        </thead>
+       
         <tbody>
           <tr>
             <td>产品名称</td>
@@ -91,23 +83,55 @@ Widget::load('front',array('view'=>'header'));
             <td>交易时间（北京时间）</td>
             <td>休息时间（北京时间）</td>
         </tr>
-        <tr>
-            <td>HK50</td>
-            <td>0.1</td>
+
+
+         <tr>
+            <td>CHINA A50</td>
+            <td>0.01</td>
             <td>25</td>
             <td>50</td>
             <td>0.5%</td>
             <td>周一至周五：09:15-23:45</td>
             <td>12:00-13:00,<br>16:30-17:15 
             23:45-09:15<br>
- (交易日)
-</td>
-        </tr>
-        <tr>
-            <td>AUS200</td>
-            <td>0.1</td>
+             (交易日)
+            </td>
+             </tr>
+
+
+            <tr>
+            <td>CHINA300</td>
+            <td>0.01</td>
             <td>25</td>
-            <td>10</td>
+            <td>50</td>
+            <td>1%</td>
+            <td>周一至周五：09:15-23:45</td>
+            <td>12:00-13:00,<br>16:30-17:15 
+            23:45-09:15<br>
+             (交易日)
+            </td>
+             </tr>
+
+            <tr>
+            <td>HKG33</td>
+            <td>0.01</td>
+            <td>25</td>
+            <td>50</td>
+            <td>0.5%</td>
+            <td>周一至周五：09:15-23:45</td>
+            <td>12:00-13:00,<br>16:30-17:15 
+            23:45-09:15<br>
+             (交易日)
+            </td>
+             </tr>
+       
+
+
+ <tr>
+            <td>AUS200</td>
+            <td>0.01</td>
+            <td>25</td>
+            <td>50</td>
             <td>1%</td>
             <td>周一至周六：07:50-04:55</td>
             <td>14:30-15:10 , 04:55-07:50  <br>
@@ -116,9 +140,9 @@ Widget::load('front',array('view'=>'header'));
         </tr>
         <tr>
             <td>EUSTX50</td>
-            <td>0.1</td>
+            <td>0.01</td>
             <td>25</td>
-            <td>10</td>
+            <td>50</td>
             <td>1%</td>
             <td>周一至周六：14:00-04:00</td>
             <td>04:00-14:00 <br>
@@ -127,9 +151,9 @@ Widget::load('front',array('view'=>'header'));
         </tr>
         <tr>
             <td>FRA40</td>
-            <td>0.1</td>
+            <td>0.01</td>
             <td>25</td>
-            <td>10</td>
+            <td>50</td>
             <td>1%</td>
             <td>周一至周六：14:00-04:00</td>
             <td>04:00-14:00  <br>
@@ -138,9 +162,9 @@ Widget::load('front',array('view'=>'header'));
         </tr>
         <tr>
             <td>GER30</td>
-            <td>0.1</td>
+            <td>0.01</td>
             <td>25</td>
-            <td>10</td>
+            <td>50</td>
             <td>1%</td>
             <td>周一至周六：06:00-04:00</td>
             <td>04:15-06:00  <br>
@@ -148,9 +172,9 @@ Widget::load('front',array('view'=>'header'));
         </tr>
         <tr>
             <td>US500</td>
-            <td>0.1</td>
+            <td>0.01</td>
             <td>25</td>
-            <td>10</td>
+            <td>50</td>
             <td>1%</td>
             <td>周一至周六：06:00-04:15</td>
             <td>04:15-06:00  <br>
@@ -158,9 +182,9 @@ Widget::load('front',array('view'=>'header'));
         </tr>
         <tr>
             <td>NAS100</td>
-            <td>0.1</td>
+            <td>0.01</td>
             <td>25</td>
-            <td>10</td>
+            <td>50</td>
             <td>1%</td>
             <td>周一至周六：06:00-04:15</td>
             <td>04:15-06:00  <br>
@@ -168,9 +192,9 @@ Widget::load('front',array('view'=>'header'));
         </tr>
          <tr>
             <td>US30</td>
-            <td>0.1</td>
+            <td>0.01</td>
             <td>25</td>
-            <td>10</td>
+            <td>50</td>
             <td>1%</td>
             <td>周一至周六：06:00-04:15</td>
             <td>04:15-06:00  <br>
@@ -178,9 +202,9 @@ Widget::load('front',array('view'=>'header'));
         </tr>
          <tr>
             <td>UK100</td>
-            <td>0.1</td>
+            <td>0.01</td>
             <td>25</td>
-            <td>10</td>
+            <td>50</td>
             <td>1%</td>
             <td>周一至周六：06:00-04:00</td>
             <td>04:15-06:00  <br>
@@ -188,9 +212,9 @@ Widget::load('front',array('view'=>'header'));
         </tr>
          <tr>
             <td>JPA225</td>
-            <td>0.1</td>
+            <td>0.01</td>
             <td>25</td>
-            <td>1000</td>
+            <td>50</td>
             <td>1%</td>
             <td>周一至周六：07:30-04:15</td>
             <td>14:25-15:30 , 04:15-07:30  <br>

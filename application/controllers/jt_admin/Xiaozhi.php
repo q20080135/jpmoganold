@@ -2,7 +2,7 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 /**
- * 客服小智
+ * 客服Service
  * @author 齐福
  * 创建时间 ： 2018年7月4日上午9:33:11
  */

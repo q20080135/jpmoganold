@@ -16,6 +16,7 @@
   <link rel="stylesheet" type="text/css" media="all" href="/resource/static/front/css/lzq.css" /> 
   <link rel="stylesheet" type="text/css" media="all" href="/resource/static/front/css/new_home.css" /> 
   <link rel="stylesheet" type="text/css" href="/resource/static/front/css/app.css">
+  
   <meta name="description" content="" /> 
   <meta name="keywords" content="外汇交易平台、外汇开户,MT4平台下载" /> 
   <link rel="canonical" href="" /> 
@@ -31,6 +32,26 @@
   <script type="text/javascript" src="/resource/static/front/js/jquery.colorbox.js"></script> 
   <script type="text/javascript" src="/resource/static/front/js/myscript.js"></script>
   <script type="text/javascript" src="/resource/static/front/js/app.js"></script>
+  <style type="text/css">
+    
+       ul.ul1{list-style:none;display:inline-block;width:100%;padding-left:0;}
+      ul.ul2{list-style:none;display:inline-block;width:100%;padding-left:0;}
+
+
+     ul.ul1 li{float:left;width:14%;display:inline-block;position:relative;line-height:60px;text-align:left}
+     ul.ul2 li{float:left;width:14%;display:inline-block;position:relative;line-height:60px;text-align:left}
+     .i1{display:inline-block;margin-top:22px;width:15px;height:15px;float:left;background:url(./image/down.png) center no-repeat;}
+     .i2{display:inline-block;width:15px;margin-top:22px;height:15px;float:left;background:url(./image/up.png) center no-repeat ;}
+     .ul1 li span{display:inline-block;float:left;margin-left:8px;}
+     .ul2 li span{display:inline-block;float:left;margin-left:8px;}
+     #b0,#b1,#b2,#b3,#b4,#b5,#b6,#b00,#b11,#b22,#b33,#b44,#b55,#b66{font-weight:bold;}
+     #a0,#a1,#a2,#a3,#a4,#a5,#a6,#a00,#a11,#a22,#a33,#a44,#a55,#a66{font-weight:bold;margin-left: 12px;}
+     .home_scroll_bar{overflow:hidden;white-space:nowrap;width:100%;height:60px;text-align:center; background-color:#1a1a1a;
+     color:#fff; position:absolute;font-size:16px;z-index:20;}
+     .home_scroll_bar .box{display: inline-block;}
+      p {margin: 0 0 0px;}
+  </style>
+
  </head> 
  <body class="home page page-id-6492 page-template page-template-template_new_home page-template-template_new_home-php" style="opacity: 1;">
  
@@ -53,7 +74,7 @@ Widget::load('front',array('view'=>'header'));
    </div> -->
   <script type="text/javascript">
     
-    // 客服小智
+    // 客服Service
 
     $("#drag").mouseover(function(){
          $(this).css("background","url(/resource/static/front/images/kefu1.png) center center no-repeat");
@@ -195,128 +216,32 @@ Widget::load('front',array('view'=>'header'));
    <div class="new_home_slider_down">
     <a href="#home_advantage_wrapper"><img src="/resource/static/front/images/2017home_slider_arrow_bottom.png" alt="JPMogan平台" /></a>
    </div> 
-   <div id="box" class="home_scroll_bar"> 
+  
+<!-- 滚动条 -->
+   <div id="box" class="home_scroll_bar" style="position: absolute;top: 900px;"> 
     <div id="box1" class="box"> 
-     <ul style="width: 2794px;"> 
-      <!-- <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>ASIC</span> REGULATED 
-       </div> </li>  -->
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>$0</span> DEPOSIT FEE 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>$0</span> WITHDRAWL 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>$200</span> MINIMUM DEPOSIT 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>UP TO 400:1</span> LEVERAGE 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>30+</span> PRODUCTS TO TRADE 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>0.01</span> MICRO LOT TRADING 
-       </div> </li> 
-      <!-- <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>ASIC</span> REGULATED 
-       </div> </li>  -->
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>$0</span> DEPOSIT FEE 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>$0</span> WITHDRAWL 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>$200</span> MINIMUM DEPOSIT 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>UP TO 400:1</span> LEVERAGE 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>30+</span> PRODUCTS TO TRADE 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>0.01</span> MICRO LOT TRADING 
-       </div> </li> 
+     <ul style="width: 2754px;" class="ul1"> 
+      <li><span>伦敦金(XAU)</span><span id="a0"></span><i></i><span id="b0"></span></li>
+      <li><span>伦敦银(XAG)</span><span id="a1"></span><i></i><span id="b1"></span></li>
+      <li><span>原油(CL)</span><span id="a2"></span><i></i><span id="b2"></span></li>
+      <li><span>布伦特原油(OIL)</span><span id="a3"></span><i></i><span id="b3"></span></li>
+      <li><span>CHA50</span><span id="a4"></span><i></i><span id="b4"></span></li>
+      <li><span>沪深300</span><span id="a5"></span><i></i><span id="b5"></span></li>
+      <li><span>EURUSD</span><span id="a6"></span><i></i><span id="b6"></span></li> 
      </ul> 
     </div> 
     <div id="box2" class="box"> 
-     <ul style="width: 2794px;"> 
-      <!-- <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>ASIC</span> REGULATED 
-       </div> </li> --> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>$0</span> DEPOSIT FEE 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>$0</span> WITHDRAWL 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>$200</span> MINIMUM DEPOSIT 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>UP TO 400:1</span> LEVERAGE 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>30+</span> PRODUCTS TO TRADE 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>0.01</span> MICRO LOT TRADING 
-       </div> </li> 
-     <!--  <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>ASIC</span> REGULATED 
-       </div> </li> --> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>$0</span> DEPOSIT FEE 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>$0</span> WITHDRAWL 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>$200</span> MINIMUM DEPOSIT 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>UP TO 400:1</span> LEVERAGE 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>30+</span> PRODUCTS TO TRADE 
-       </div> </li> 
-      <li> 
-       <div class="home_scroll_bar_box"> 
-        <span>0.01</span> MICRO LOT TRADING 
-       </div> </li> 
+     <ul style="width: 2754px;" class="ul2"> 
+      <li><span>伦敦金(XAU)</span><span id="a00"></span><i></i><span id="b00"></span></li>
+      <li><span>伦敦银(XAG)</span><span id="a11"></span><i></i><span id="b11"></span></li>
+      <li><span>原油(CL)</span><span id="a22"></span><i></i><span id="b22"></span></li>
+      <li><span>布伦特原油(OIL)</span><span id="a33"></span><i></i><span id="b33"></span></li>
+      <li><span>CHA50</span><span id="a44"></span><i></i><span id="b44"></span></li>
+      <li><span>沪深300</span><span id="a55"></span><i></i><span id="b55"></span></li>
+      <li><span>EURUSD</span><span id="a66"></span><i></i><span id="b66"></span></li>
      </ul> 
     </div> 
-   </div> 
+   </div>
   </div> 
   <div class="new_home_bang" style="display: none;"> 
    <div class="new_home_bang_top"> 
@@ -513,7 +438,7 @@ Widget::load('front',array('view'=>'header'));
    </div> 
   </div>
   <div class="mobile_trading_help">
-    <h1>客服小智·业界最佳</h1>
+    <h1>客服Service·业界最佳</h1>
     <h2>INDUSTRY BEST CUSTOMER SERVICE</h2>
     <a href="">提交问题</a>
   </div> 
@@ -678,31 +603,6 @@ Widget::load('front',array('view'=>'header'));
     auto:true,
     mode:"fade"
     });
-if($(".home_scroll_bar").css("display") =='block')
-{
-  var maxw=0;
-  jQuery(".home_scroll_bar #box1 ul li").each(function(){
-    maxw=maxw+jQuery(this).width();
-  });
-  jQuery(".home_scroll_bar #box1 ul").width(maxw+10);
-      function ScrollImgLeft(){
-          var speed=20
-          var scroll_begin = document.getElementById("box1");
-          var scroll_end = document.getElementById("box2");
-          var scroll_div = document.getElementById("box");
-          scroll_end.innerHTML=scroll_begin.innerHTML
-          function Marquee(){
-          if(scroll_end.offsetWidth-scroll_div.scrollLeft<=0)
-          scroll_div.scrollLeft-=scroll_begin.offsetWidth
-          else
-          scroll_div.scrollLeft++
-      }
-      var MyMar=setInterval(Marquee,speed)
-      scroll_div.onmouseover=function() {clearInterval(MyMar)}
-      scroll_div.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
-  }
-  ScrollImgLeft();
-}
 
 
 jQuery(document).ready(function($){
@@ -882,6 +782,128 @@ Widget::load('front',array('view'=>'footer'));
            
 
     });
+
+
+
+   // 滚动条
+    
+     
+     function getResult()
+     {
+            $.ajax({  
+          cache :true,  
+          url:"front/index/getsina",  
+          type : "GET",  
+          dataType : "script",  
+            success : function(res){  
+                var e1=hq_str_hf_XAU.split(","); 
+                var e2=hq_str_hf_XAG.split(",");
+                var e3=hq_str_hf_CL.split(",");
+                var e4=hq_str_hf_OIL.split(",");
+                var e5=hq_str_hf_CHA50CFD.split(",");
+                var e6=hq_str_sh000300.split(",");
+                var e7=hq_str_EURUSD.split(",");
+                 arr=[e1,e2,e3,e4,e5,e6,e7];
+                for(var i=0;i<5;i++)
+                {
+                  curr_f=arr[i][0];yest_f=arr[i][7];temp_f=curr_f-yest_f;
+                  if(curr_f<yest_f)
+                  {
+                    $("#a"+i).html("<font color='red'>" + curr_f +"</font>");
+                    $("#a"+i).next("i").addClass("i1");
+                    $("#a"+i+i).html("<font color='red'>" + curr_f +"</font>");
+                    $("#a"+i+i).next("i").addClass("i1");
+                    $("#b"+i).html("<font color='red'>"+((temp_f / yest_f) * 100).toFixed(2) + " % "+"("+temp_f.toFixed(2)+")"+"</font>");
+                    $("#b"+i+i).html("<font color='red'>"+((temp_f / yest_f) * 100).toFixed(2) + " % "+"("+temp_f.toFixed(2)+")"+"</font>");
+                  }
+                  else
+                  {
+                    $("#a"+i).html("<font color='green'>" + curr_f + "</font>");
+                    $("#a"+i+i).html("<font color='green'>" + curr_f + "</font>");
+                    $("#a"+i).next("i").addClass("i2");
+                    $("#a"+i+i).next("i").addClass("i2");
+                    $("#b"+i).html("<font color='green'>"+"+"+((temp_f / yest_f) * 100).toFixed(2) + " % "+"("+"+"+temp_f.toFixed(2)+")"+"</font>");
+                    $("#b"+i+i).html("<font color='green'>"+"+"+((temp_f / yest_f) * 100).toFixed(2) + " % "+"("+"+"+temp_f.toFixed(2)+")"+"</font>");
+                    
+                  }
+
+                  curr_f1=arr[5][3];yest_f1=arr[5][2];temp_f1=curr_f1-yest_f1;
+                  if(curr_f1<yest_f1)
+                    {
+                      $("#a5").html("<font color='red'>" + curr_f1 +"</font>");
+                      $("#a55").html("<font color='red'>" + curr_f1 +"</font>");
+                      $("#b5").html("<font color='red'>"+((temp_f1 / yest_f1) * 100).toFixed(2) + " % "+"("+temp_f1.toFixed(2)+")"+"</font>");
+                      $("#b55").html("<font color='red'>"+((temp_f1 / yest_f1) * 100).toFixed(2) + " % "+"("+temp_f1.toFixed(2)+")"+"</font>");
+                      $("#a5").next("i").addClass("i1");
+                      $("#a55").next("i").addClass("i1");
+                    }
+                    else
+                    {
+                      $("#a5").html("<font color='green'>" + curr_f1 + "</font>");
+                      $("#b5").html("<font color='green'>"+"+"+((temp_f1 / yest_f1) * 100).toFixed(2) + " % "+"("+"+"+temp_f1.toFixed(2)+")"+"</font>");
+                      $("#a5").next("i").addClass("i2");
+                      $("#a55").html("<font color='green'>" + curr_f1 + "</font>");
+                      $("#b55").html("<font color='green'>"+"+"+((temp_f1 / yest_f1) * 100).toFixed(2) + " % "+"("+"+"+temp_f1.toFixed(2)+")"+"</font>");
+                      $("#a55").next("i").addClass("i2");
+                    }
+
+                  curr_f2=arr[6][1];yest_f2=arr[6][5];temp_f2=curr_f2-yest_f2;
+                  if(curr_f2<yest_f2)
+                    {
+                      $("#a6").html("<font color='red'>" + curr_f2 +"</font>");
+                      $("#b6").html("<font color='red'>"+((temp_f2 / yest_f2) * 100).toFixed(2) + " % "+"("+temp_f2.toFixed(4)+")"+"</font>");
+                      $("#a6").next("i").addClass("i1");
+                      $("#a66").html("<font color='red'>" + curr_f2 +"</font>");
+                      $("#b66").html("<font color='red'>"+((temp_f2 / yest_f2) * 100).toFixed(2) + " % "+"("+temp_f2.toFixed(4)+")"+"</font>");
+                      $("#a66").next("i").addClass("i1");
+                    }
+                    else
+                    {
+                      $("#a6").html("<font color='green'>" + curr_f1 + "</font>");
+                      $("#b6").html("<font color='green'>"+"+"+((temp_f2 / yest_f2) * 100).toFixed(2) + " % "+"("+"+"+temp_f2.toFixed(4)+")"+"</font>");
+                      $("#a6").next("i").addClass("i2");
+                      $("#a66").html("<font color='green'>" + curr_f1 + "</font>");
+                      $("#b66").html("<font color='green'>"+"+"+((temp_f2 / yest_f2) * 100).toFixed(2) + " % "+"("+"+"+temp_f2.toFixed(4)+")"+"</font>");
+                      $("#a66").next("i").addClass("i2");
+                    }
+
+                }
+
+            }  
+         }); 
+
+     }
+  $(document).ready(function() {  
+      
+       
+       setInterval(getResult, 2000);    
+         
+    }) 
+  if($(".home_scroll_bar").css("display") =='block')
+{
+  var maxw=0;
+  jQuery(".home_scroll_bar #box1 ul li").each(function(){
+    maxw=maxw+jQuery(this).width();
+  });
+  jQuery(".home_scroll_bar #box1 ul").width(maxw+10);
+      function ScrollImgLeft(){
+          var speed=20
+          var scroll_begin = document.getElementById("box1");
+          var scroll_end = document.getElementById("box2");
+          var scroll_div = document.getElementById("box");
+          // scroll_end.innerHTML=scroll_begin.innerHTML
+          function Marquee(){
+          if(scroll_end.offsetWidth-scroll_div.scrollLeft<=0)
+          scroll_div.scrollLeft-=scroll_begin.offsetWidth
+          else
+          scroll_div.scrollLeft++
+      }
+      var MyMar=setInterval(Marquee,speed)
+      scroll_div.onmouseover=function() {clearInterval(MyMar)}
+      scroll_div.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
+  }
+  ScrollImgLeft();
+}
 </script>  
  </body>
 </html>

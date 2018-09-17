@@ -99,7 +99,7 @@
             <ul class='sub-menu'> 
              <li class='menu-item'><a href='/mt4pc.html#mt4pc1' id='pc'>MT4 PC端</a></li> 
              <li class='menu-item'><a href='/mt4pc.html#mt4pc2' id='mobile'>MT4移动端</a></li> 
-             <li class='menu-item'><a href='/mt4pc.html#mt4pc3' id='app'>APP 下载</a></li> 
+             <!-- <li class='menu-item'><a href='/mt4pc.html#mt4pc3' id='app'>APP 下载</a></li>  -->
             </ul> </li> 
            <li class='menu-item'><a href=''>文件下载</a> 
             <ul class='sub-menu'> 
@@ -121,14 +121,14 @@
           </div> 
          </div>
         </div></li> 
-       <li class='menu-item'><a href=''>每日一汇</a> 
+       <li class='menu-item'><a href=''>教育中心</a> 
         <div class='submenu_box submenu_box4'>
          <div class='submenu_inner'>
           <div class='subtitle'></div>
           <ul class='sub-menu'> 
            <li class='menu-item'><a href=''>汇市头条</a> 
             <ul class='sub-menu'> 
-             <li class='menu-item'><a href='/headline.html'>TC 汇评</a></li> 
+             <!-- <li class='menu-item'><a href='/headline.html'>每日资讯</a></li>  -->
              <li class='menu-item'><a href='/headline.html'>财经日历</a></li> 
             </ul> </li> 
            <li class='menu-item'><a href=''>培训课堂</a> 
@@ -165,7 +165,7 @@
           <ul class='sub-menu'> 
            <li class='menu-item'><a href=''>帮助中心</a> 
             <ul class='sub-menu'> 
-             <li class='menu-item'><a href='/helpcenter.html#helpcenter1' id='xiaozhi'>客服小智</a></li> 
+             <li class='menu-item'><a href='/helpcenter.html#helpcenter1' id='xiaozhi'>客服Service</a></li> 
              <li class='menu-item'><a href='/helpcenter.html#helpcenter2' id='churu'>出入金问题</a></li> 
              <li class='menu-item'><a href='/helpcenter.html#helpcenter3' id='zhanghu'>账户问题</a></li> 
              <li class='menu-item'><a href='/helpcenter.html#helpcenter4' id='product'>产品问题</a></li> 
@@ -337,5 +337,6 @@
     </div>
 </body>
 </html>
-
+<link rel="stylesheet" type="text/css" href="/resource/static/front/css/jivosite.css">
+<script type="text/javascript" src="/resource/static/front/js/jivosite.js"></script>
 

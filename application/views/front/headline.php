@@ -25,7 +25,7 @@ Widget::load('front',array('view'=>'header'));
    </div>
   <script type="text/javascript">
     
-    // 客服小智
+    // 客服Service
 
    $("#drag").mouseover(function(){
          $(this).css("background","url(/resource/static/front/images/kefu1.png) center center no-repeat");
@@ -100,7 +100,7 @@ Widget::load('front',array('view'=>'header'));
       <i></i>
   	</div>  
     <div class="announcement_main">
-      <div class="announcement_main_top">
+     <!--  <div class="announcement_main_top">
         <input type="radio" name="headline" id="headline1" checked>   
         <label for="headline1">每日汇评</label>
         <div class="announcement_main_bot">
@@ -142,8 +142,8 @@ Widget::load('front',array('view'=>'header'));
             </div> 
            </div>
         </div>
-      </div>
-      <div class="headline_main_top" style="background:url(./images/headline02.jpg) center center no-repeat;background-size:cover">
+      </div> -->
+      <div class="headline_main_top" style="background:url(/resource/static/front/images/headline02.jpg) center center no-repeat;background-size:cover">
         <input type="radio" name="headline" id="headline2">   
         <label for="headline2">财经日历</label>
         <div class="headline_main_bot" style="width:80%;min-height:800px;padding-top:80px;">  

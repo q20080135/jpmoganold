@@ -165,7 +165,7 @@ document.writeln("          <div class=\'subtitle\'></div>");
 document.writeln("          <ul class=\'sub-menu\'> ");
 document.writeln("           <li class=\'menu-item\'><a href=\'\'>帮助中心</a> ");
 document.writeln("            <ul class=\'sub-menu\'> ");
-document.writeln("             <li class=\'menu-item\'><a href=\'helpcenter.html#helpcenter1\' id=\'xiaozhi\'>客服小智</a></li> ");
+document.writeln("             <li class=\'menu-item\'><a href=\'helpcenter.html#helpcenter1\' id=\'xiaozhi\'>客服Service</a></li> ");
 document.writeln("             <li class=\'menu-item\'><a href=\'helpcenter.html#helpcenter2\' id=\'churu\'>出入金问题</a></li> ");
 document.writeln("             <li class=\'menu-item\'><a href=\'helpcenter.html#helpcenter3\' id=\'zhanghu\'>账户问题</a></li> ");
 document.writeln("             <li class=\'menu-item\'><a href=\'helpcenter.html#helpcenter4\' id=\'product\'>产品问题</a></li> ");

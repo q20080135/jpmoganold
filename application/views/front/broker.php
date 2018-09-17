@@ -30,7 +30,7 @@ Widget::load('front',array('view'=>'header'));
 
    <script type="text/javascript">
     
-    // 客服小智
+    // 客服Service
 
      $("#drag").mouseover(function(){
          $(this).css("background","url(/resource/static/front/images/kefu1.png) center center no-repeat");

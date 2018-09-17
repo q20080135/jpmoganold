@@ -127,7 +127,7 @@ class Article extends ADMIN_Controller
             $u->update_item['aContent'] = $_POST['aContent'];
             $u->update_item['uId'] = $this->admin_info['uID'];
             $this->load->helper('file');
-            $file = saveBase64Img($_POST['aImg'],'',$mime = "png",$max_size = 2);
+            $file = saveBase64Img2($_POST['aImg'],'',$mime = "png",$max_size = 2);
 
 
 
@@ -135,8 +135,8 @@ class Article extends ADMIN_Controller
             {
                 $u->update_item['aImg'] = $file;
             }
-            $u->update_item['aAddtime'] = date("Y-m-d H-i-s");
-  
+            //$u->update_item['aAddtime'] = date("Y-m-d H-i-s");
+            
             $u->isnullSetLogTitle('添加文章。');
     
             // dump($u->update_item);
@@ -232,7 +232,7 @@ class Article extends ADMIN_Controller
 
             if(form('aImg')){
                 $this->load->helper('file');
-                $file = saveBase64Img($_POST['aImg'],'',$mime = "png",$max_size = 2);
+                $file = saveBase64Img2($_POST['aImg'],'',$mime = "png",$max_size = 2);
                 if ($file) 
                 {
                     $update_item['aImg'] = $file;

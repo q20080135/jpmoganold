@@ -8,7 +8,7 @@ Widget::load('layout_tpl',array('view'=>'common_script'));?>
 
 Widget::load('layout_tpl',array('view'=>'open_body_tag'));
 
-Widget::load('breadcrumb',array('客服小智','问题列表'));
+Widget::load('breadcrumb',array('客服Service','问题列表'));
 ?>
 <div class="page-container">
     <form method="get" class="form form-horizontal" id="form_search_list" >

@@ -47,21 +47,21 @@ Widget::load('front',array('view'=>'header'));
          <i></i>
          <div class="moneysafety_text_bot1">
            <h1>监管</h1>
-           <p>ASIC为全球最权威的三大金融监管机构之一，是澳大利亚独立的联邦政府机构。JPMogan作为最早持有其AFS牌照的交易商之一，每年定期向ASIC报送财务报表和审计报告来证明自己具备提供金融服务的实力，并在13年的监管历史中保持完美的记录，AFSL No. : 246943。</p>
+           <p>JPmogan为全球权威的指数交易平台，一直以来对于监管都是严格要求的。在行业内部，JPmogan每年定期向金融监管方面报送财务报表和审计报告来证明自己具备提供金融服务的实力，并在13年的监管历史中保持完美的记录。</p>
          </div>
         </div>
         <div class="img2">
          <i></i>
          <div class="moneysafety_text_bot1">
            <h1>账户隔离</h1>
-           <p>根据澳大利亚《2016年财政修正案（第1号措施）条例草案》规定，JPMogan将客户用于交易的资金账户独立存放于全球AA信用级银行——澳大利亚国民银行NAB，并与平台运营账户完全隔离。而在该草案出台之前，JPMogan早已自觉严格执行多年，让客户资金始终处于被保护状态。</p>
+           <p>根据澳大利亚《财政修正案（第1号措施）条例草案》规定，JPmogan将客户用于交易的资金账户独立存放于全球AA信用级银行——澳大利亚国民银行，并与平台运营账户完全隔离。而在该草案出台之前，JPmogan早已自觉严格执行多年，让客户资金始终处于被保护状态。</p>
          </div>
         </div>
         <div class="img3">
           <i></i>
           <div class="moneysafety_text_bot1">
-            <h1>PI专业保险</h1>
-            <p>ASIC强制要求经纪商为客户购买专业责任保险（PI险），如果经纪商出现任何问题将由保险公司对客户进行赔偿。而JPMogan则由全球知名保险组织Llyod’s of London承保，最高赔付执行额度达2,000万美元</p>
+            <h1>专业级保险</h1>
+            <p>JPmogan强制要求经纪商为客户购买专业级的责任保险，如果经纪商出现任何问题将由保险公司对客户进行赔偿。而JPmogan则全权为平台各方面风险投入了很大一部分全球知名保险。</p>
           </div>
         </div>
       </div>
@@ -103,7 +103,7 @@ Widget::load('front',array('view'=>'header'));
           <i></i>
           <div class="moneysafety_view_bot1">
           <h1>牢记JPMogan网址</h1>
-          <p>JPMogan官方网址为www.JPMogan.com,不要点击来历不明的链接访问JPMogan,谨防网站钓鱼和欺诈。</p>
+          <p>JPMogan官方网址为www.jpmorgen.com,不要点击来历不明的链接访问JPMogan,谨防网站钓鱼和欺诈。</p>
         </div>
         </div>
         <div class="img4">

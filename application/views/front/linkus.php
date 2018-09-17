@@ -55,7 +55,7 @@ Widget::load('front',array('view'=>'header'));
         </span>
         <span>
           <i class="i3"></i>
-          <p>地址：中国香港</p>
+          <p>地址：United States</p>
         </span>
       </div>  
     </div> 
