@@ -109,21 +109,26 @@ Widget::load('front',array('view'=>'header'));
         <div class="datadownload_main_bot">
             <dl> 
              <dd> 
-              <span>JPMogan宣传介绍页2pages</span>  
+              <span>JPMogan宣传介绍页</span>  
               <a href="/resource/static/front/file/jieshao.rar" download="" target="_blank" class="a1">点击下载</a> 
               <embed src="/resource/static/front/file/jieshao.rar" type="application/pdf" width="100%" height="100%">
              </dd> 
-            </dl>
-
-
-
-            <dl> 
+        
+             <dd> 
+              <span>JPMogan宣传册PDF版</span>  
+              <a href="/resource/static/front/file/xczl.pdf" download="" target="_blank" class="a1">点击下载</a> 
+              <a href="/resource/static/front/file/xczl.pdf" target="_blank" class="a2">在线预览</a>
+              <embed src="/resource/static/front/file/xczl.pdf" type="application/pdf" width="100%" height="100%">
+             </dd> 
+       
              <dd> 
               <span>JPMogan宣传册（打印版）</span>  
-              <a href="/resource/static/front/file/" download="" target="_blank" class="a1">点击下载</a> 
+              <a href="/resource/static/front/file/xczldy.zip" download="" target="_blank" class="a1">点击下载</a> 
               <embed src="/resource/static/front/file/xczldy.zip" type="application/pdf" width="100%" height="100%">
              </dd> 
             </dl>
+
+
             <!-- 移动端web -->
            
             <div class="data_content"> 
@@ -140,7 +145,20 @@ Widget::load('front',array('view'=>'header'));
               </div> 
             </div>
 
-
+            <div class="data_content"> 
+              <div class="data_content_title">
+               JPMogan宣传册PDF版
+               <i></i>
+              </div> 
+              <div class="data_content_text" style="overflow: hidden;"> 
+               <div class="default_template"> 
+                  <a href="/resource/static/front/file/xczl.pdf" download="" target="_blank" class="a1">点击下载</a>
+                  <a href="/resource/static/front/file/xczl.pdf" target="_blank" class="a2">在线预览</a>
+                  <embed src="/resource/static/front/file/xczl.pdf" type="application/pdf" width="100%" height="100%">
+                <div class="clear"></div> 
+               </div> 
+              </div> 
+            </div>
             <div class="data_content"> 
               <div class="data_content_title">
                JPMogan宣传册（打印版）
