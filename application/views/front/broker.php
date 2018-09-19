@@ -135,7 +135,7 @@ Widget::load('front',array('view'=>'header'));
       <div class="broker_intro_banner b2">
         <div class="broker_intro_content">
           <h1>交易服务和技术支持：</h1>
-          <p>全方位的市场支持，同时在市场交易时间内，我们可为您提供5.5*24小时在线支持。在技术上为IB建立网络支持，并且还可以使IB的客户享受到STP-ECN交易技术支持，使其客户订单能够直接进入国际外汇资金源，并在第一时间内100%自动执行撮合交易。</p>
+          <p>全方位的市场支持，同时在市场交易时间内，我们可为您提供5.5*24小时在线支持。在技术上为IB建立网络支持，并且还可以使IB的客户享受到STP-ECN交易技术支持，使其客户订单能够直接进入国际FX资金源，并在第一时间内100%自动执行撮合交易。</p>
         </div>
       </div> 
       <div class="broker_intro_banner b3">
@@ -179,7 +179,7 @@ Widget::load('front',array('view'=>'header'));
     </div>
     <div class="cooperation_text_content"> 
        <p>JPMogan针对公司、企业类的机构交易者提供卓越的交易技术和自动化交易系统。<br>我们先进的交易工具可帮助客户采用最佳交易策略，透明的报价模式及合理的点差能够有效地为客户实现成本效益，<br>全面的报告服务让客户对账户活动了如指掌，精湛的风控管理令客户能够迅速地应对市场变化。<br>同时JPMogan还设有五大数据中心，能够最大限度地为客户带来低延迟的执行质量，以及平稳而顺畅的交易体验。<br>更多的是，凭借着JPMogan与全球顶级流动性提供商的关系，<br>
-        机构客户能够直接对接到外汇市场报价中，从而在各种流动性场所包括顶级银行、MTF和ECN交易模式的Currenex平台中获得预期报价。</p>
+        机构客户能够直接对接到FX市场报价中，从而在各种流动性场所包括顶级银行、MTF和ECN交易模式的Currenex平台中获得预期报价。</p>
     </div>
     <div class="cooperation_text_image">
        <img src="/resource/static/front/images/cooperation2.png">
@@ -188,7 +188,7 @@ Widget::load('front',array('view'=>'header'));
        资金管理人
     </div>
     <div class="cooperation_text_content"> 
-       <p>JPMogan为专业而优秀的资金管理人提供最得心应手的事——交易，在成为JPMogan的合作伙伴后,<br>资金管理人将充分享受到JPMogan出众的交易优势。<br>我们将配合资金管理人的一切所需为其提供先进的对冲工具，同类中最优质的技术支持，<br>包括特别定制的CRM账户管理系统和利润分配系统等，<br>并以极具竞争力的价格和直通式处理方式使资金管理人在外汇交易中始终处于先人一步的优势地位。</p>
+       <p>JPMogan为专业而优秀的资金管理人提供最得心应手的事——交易，在成为JPMogan的合作伙伴后,<br>资金管理人将充分享受到JPMogan出众的交易优势。<br>我们将配合资金管理人的一切所需为其提供先进的对冲工具，同类中最优质的技术支持，<br>包括特别定制的CRM账户管理系统和利润分配系统等，<br>并以极具竞争力的价格和直通式处理方式使资金管理人在FX交易中始终处于先人一步的优势地位。</p>
     </div>
     <div class="cooperation_text_image">
        <img src="/resource/static/front/images/cooperation3.png">
@@ -217,7 +217,7 @@ Widget::load('front',array('view'=>'footer'));
       support@jpmorgen.com
     </div>
     <div class="small_footer_text">
-      风险声明:外汇差价合约交易属杠杆交易，具有高风险，并不一定适合所有投资者。高杠杆率意味着高收益与高风险并存，所以在决定进行外汇差价合约交易或其他形式金融投资前，投资者请务必慎重考虑自身投资目标、交易经验、经济承受范围。杠杆交易存在令您损失部分或全部初始入金的可能性，因此，切忌投入无法承受损失的资金数额。客户应对上述外汇交易所存风险清楚了解，若有疑问应向个人金融理财顾问寻求专业的意见。交易前，请仔细阅读我们完整的风险披露、隐私政策、法律文件。
+      Risk Warning: Trading Derivatives carries a high level of risk to your capital and you should only trade with money you can afford to lose. Please ensure that you fully understand the risks involved, and seek independent advice if necessary. A Product Disclosure Statement (PDS) can be obtained  from our offices and should be considered before entering into a transaction with us. 
     </div>
   </div></body>
 </html>

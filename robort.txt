@@ -1,0 +1,8 @@
+User-agent: Sosospider
+Disallow: /
+User-agent: sogou spider
+Disallow: /
+User-agent: *
+Disallow: 
+Crawl-delay: 120
+Sitemap: http://www.jpmorgen.com/sitemap.xml

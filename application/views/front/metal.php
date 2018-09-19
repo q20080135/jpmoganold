@@ -4,7 +4,7 @@
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0" />
 <meta http-equiv="Cache-Control" content="no-cache"/> 
-  <title>贵金属</title>
+  <title>产品</title>
   <link rel="stylesheet" type="text/css" media="all" href="/resource/static/front/css/new_css.css" />
   <link rel="stylesheet" type="text/css" media="all" href="/resource/static/front/css/new_style.css" />
   <link rel="stylesheet" type="text/css" media="all" href="/resource/static/front/css/new_home.css" /> 
@@ -44,7 +44,7 @@ Widget::load('front',array('view'=>'header'));
       </div>
       <div class="metal_text_bot">
         <h1>SPOT GOLD</h1>
-        <p>黄金是一种重要的金融商品同时也是稀有金属，具有非常高的经济价值。在金融动荡时期，黄金是投资者规避风险的高系数选择。外汇市场中的现货黄金可以不需要持实物进行交割，采用透过保证金的方式以美元相对的报价形式进行买入或卖出。鉴于黄金与美元此消彼长的关系，许多投资者会选择以买入黄金的方式来规避美元风险</p>
+        <p>黄金是一种重要的金融商品同时也是稀有金属，具有非常高的经济价值。在金融动荡时期，黄金是投资者规避风险的高系数选择。FX市场中的现货黄金可以不需要持实物进行交割，采用透过保证金的方式以美元相对的报价形式进行买入或卖出。鉴于黄金与美元此消彼长的关系，许多投资者会选择以买入黄金的方式来规避美元风险</p>
       </div>  
     </div>
     <div class="metal_view">
@@ -184,7 +184,7 @@ Widget::load('front',array('view'=>'footer'));
       support@jpmorgen.com
     </div>
     <div class="small_footer_text">
-      风险声明:外汇差价合约交易属杠杆交易，具有高风险，并不一定适合所有投资者。高杠杆率意味着高收益与高风险并存，所以在决定进行外汇差价合约交易或其他形式金融投资前，投资者请务必慎重考虑自身投资目标、交易经验、经济承受范围。杠杆交易存在令您损失部分或全部初始入金的可能性，因此，切忌投入无法承受损失的资金数额。客户应对上述外汇交易所存风险清楚了解，若有疑问应向个人金融理财顾问寻求专业的意见。交易前，请仔细阅读我们完整的风险披露、隐私政策、法律文件。
+      Risk Warning: Trading Derivatives carries a high level of risk to your capital and you should only trade with money you can afford to lose. Please ensure that you fully understand the risks involved, and seek independent advice if necessary. A Product Disclosure Statement (PDS) can be obtained  from our offices and should be considered before entering into a transaction with us. 
     </div>
   </div>
 </body>

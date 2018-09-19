@@ -59,10 +59,10 @@
           <ul class='sub-menu'> 
            <li class='menu-item'><a href=''>产品类型</a> 
             <ul class='sub-menu'> 
-             <li class='menu-item'><a href='/forex.html'>外汇</a></li> 
-             <li class='menu-item'><a href='/zhishu.html'>指数</a></li> 
-             <li class='menu-item'><a href='/crude.html'>原油</a></li>
-             <li class='menu-item'><a href='/metal.html'>贵金属</a></li>
+             <li class='menu-item'><a href='/forex.html'>Foreign Exchange</a></li> 
+             <li class='menu-item'><a href='/zhishu.html'>Index</a></li> 
+             <li class='menu-item'><a href='/crude.html'>Crude Oil</a></li>
+             <li class='menu-item'><a href='/metal.html'>Metal</a></li>
             </ul> </li> 
            <li class='menu-item'><a href=''>产品规则</a> 
             <ul class='sub-menu'> 
@@ -137,7 +137,7 @@
              <li class='menu-item'><a href='/training.html'>高手加速</a></li> 
              <li class='menu-item'><a href='/training.html'>视频课堂</a></li> 
             </ul> </li> 
-           <li class='menu-item'><a href='u'>外汇词典</a> 
+           <li class='menu-item'><a href='u'>FX词典</a> 
             <ul class='sub-menu'> 
              <li class='menu-item'><a href='/dictionary.html'>常用术语</a></li> 
              <li class='menu-item'><a href='/dictionary.html'>专业术语</a></li> 
@@ -264,7 +264,7 @@
       </li> 
       <li class='menu-item'><a href='javascript:void(0)'>产品类型</a> 
        <ul class='sub-menu'>
-          <li class='menu-item'><a href='/forex.html'>外汇</a></li> 
+          <li class='menu-item'><a href='/forex.html'>FX</a></li> 
           <li class='menu-item'><a href='/zhishu.html'>指数</a></li> 
           <li class='menu-item'><a href='/crude.html'>原油</a></li> 
           <li class='menu-item'><a href='/metal.html'>贵金属</a></li> 
@@ -294,7 +294,7 @@
           <li class='menu-item'><a href='training.html#training3' id='shipin'>视频课堂</a></li> 
         </ul>
       </li>
-      <li class='menu-item'><a href='javascript:void(0)'>外汇词典</a> 
+      <li class='menu-item'><a href='javascript:void(0)'>FX词典</a> 
          <ul class='sub-menu'> 
           <li class='menu-item'><a href='/dictionary.html#dictionary1' id='common'>常用术语</a></li> 
           <li class='menu-item'><a href='/dictionary.html#dictionary2' id='professional'>专业术语</a></li> 

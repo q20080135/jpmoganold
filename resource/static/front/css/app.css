@@ -141,7 +141,7 @@
   .linkus_message_l #imgcode{width:2.5rem;height:1.0rem;margin-top:0.25rem;margin-left:0.25rem;}
   input::-webkit-input-placeholder {font-size:0.325rem}
   textarea::-webkit-input-placeholder {font-size:0.325rem}
- /* 外汇*/
+ /* FX*/
  .forex_display{height:7.5rem;padding:0;padding-top:2.5rem;}
 .forex_display_center{padding:0;border:none;}
 .forex_display_center>p:first-child{font-size:0.75rem;line-height:1.25rem;}
@@ -424,7 +424,7 @@
 .shipin_item .video_box{height:3.95rem;}
 .shipin_box .shipin_item .text_box{font-size:0.325rem;padding-top:0.5rem;padding-bottom:0.5rem;}
 
-/*外汇词典*/
+/*FX词典*/
 .dictionary_display{height:7.5rem;padding:0;padding-top:2.5rem;}
 .dictionary_display_center{padding:0;border:none;}
 .dictionary_display_center>p:first-child{display:none}

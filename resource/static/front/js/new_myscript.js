@@ -143,7 +143,7 @@ $("#shipin").click(function(){
    $("#training3").attr("checked",true)
 })
 
-//外汇词典
+//FX词典
 
 $("#common").click(function(){
    $("#dictionary1").attr("checked",true)

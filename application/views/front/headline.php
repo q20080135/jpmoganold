@@ -2,7 +2,7 @@
 <html>
 <head>
 	 <meta charset="utf-8">
-	<title>汇市头条</title>
+	<title>头条</title>
 	<link rel="stylesheet" type="text/css" media="all" href="/resource/static/front/css/new_css.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="/resource/static/front/css/new_style.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="/resource/static/front/css/new_home.css" /> 

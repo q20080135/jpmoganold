@@ -4,7 +4,7 @@
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0" />
 <meta http-equiv="Cache-Control" content="no-cache"/> 
-  <title>外汇</title>
+  <title>产品</title>
   <link rel="stylesheet" type="text/css" media="all" href="/resource/static/front/css/new_css.css" />
   <link rel="stylesheet" type="text/css" media="all" href="/resource/static/front/css/new_style.css" />
   <link rel="stylesheet" type="text/css" media="all" href="/resource/static/front/css/new_home.css" /> 
@@ -25,7 +25,7 @@ Widget::load('front',array('view'=>'header'));
   <div class="new_content">
     <div class="forex_display">
       <div class="forex_display_center">
-      <p>36种全球主流外汇货币对</p>
+      <p>36种全球主流FX货币对</p>
       <p>点差低一点成交快一点未来好一点</p>
       <p>36 MAJOR GLOBAL CURRENCIES</p>
       </div>
@@ -33,25 +33,25 @@ Widget::load('front',array('view'=>'header'));
     <div class="forex_text">
       <div class="forex_text_top">
         <p><i style="display:inline-block;width:50px;border-bottom:1px solid #b09373;position:relative;top:-5px;left:-30px"></i><b style="position:relative;top:-3px;left:-20px;display:inline-block;width:6px;height:6px;border-radius:3px;background-color:#bfbfbf"></b>
-          <span>外汇主流盘</span>
+          <span>FX主流盘</span>
           <b style="position:relative;top:-3px;left:20px;display:inline-block;width:6px;height:6px;border-radius:3px;background-color:#bfbfbf"></b><i style="position:relative;top:-5px;left:30px;display:inline-block;width:50px;border-bottom:1px solid #b09373"></i>
         </p>
         <p style="color:#444;font-size:28px;font-weight:bold">FOREIGN EXCHANGE MAIN BOARD</p>
       </div>
       <i></i>
       <div class="forex_text_title">
-        外汇主流盘
+        FX主流盘
       </div>
       <div class="forex_text_bot">
         <h1>FOREIGN EXCHANGE MAIN BOARD</h1>
-        <p>外汇市场是世界上最活跃、流通性最高、全球最大的金融交易市场，参与者包括银行、金融机构、公司、零售投资者等。据国际清算银行BIS 2016年调查统计，全球外汇市场日成交量高达5万多亿美元，在如此庞大的交易量下，没有任何势力可以干预或左右市场走向，因而是世界最公平透明的交易市场。此外，它还可以24小时进行多空双向交易，并利用杠杆机制以小博大，可以说是世界上最具连续性和灵活性的金融交易。</p>
+        <p>FX市场是世界上最活跃、流通性最高、全球最大的金融交易市场，参与者包括银行、金融机构、公司、零售投资者等。据国际清算银行BIS 2016年调查统计，全球FX市场日成交量高达5万多亿美元，在如此庞大的交易量下，没有任何势力可以干预或左右市场走向，因而是世界最公平透明的交易市场。此外，它还可以24小时进行多空双向交易，并利用杠杆机制以小博大，可以说是世界上最具连续性和灵活性的金融交易。</p>
       </div>  
     </div>
 
     <div class="forex_view">
       <div class="forex_view_top">
         <p><i style="display:inline-block;width:50px;border-bottom:1px solid #b09373;position:relative;top:-5px;left:-30px"></i><b style="position:relative;top:-3px;left:-20px;display:inline-block;width:6px;height:6px;border-radius:3px;background-color:#bfbfbf"></b>
-          <span>外汇合约细则</span>
+          <span>FX合约细则</span>
           <b style="position:relative;top:-3px;left:20px;display:inline-block;width:6px;height:6px;border-radius:3px;background-color:#bfbfbf"></b><i style="position:relative;top:-5px;left:30px;display:inline-block;width:50px;border-bottom:1px solid #b09373"></i>
         </p>
         <p style="color:#444;font-size:28px;font-weight:bold">FOREIGN EXCHANGE CONTRACT DETAILS</p>
@@ -60,7 +60,7 @@ Widget::load('front',array('view'=>'header'));
       <br><br>     
     </div>
     <div class="forex_table_title">
-      外汇合约细则
+      FX合约细则
     </div>
     <div class="forex_table">
       <table>
@@ -147,7 +147,7 @@ Widget::load('front',array('view'=>'footer'));
       support@jpmorgen.com
     </div>
     <div class="small_footer_text">
-      风险声明:外汇差价合约交易属杠杆交易，具有高风险，并不一定适合所有投资者。高杠杆率意味着高收益与高风险并存，所以在决定进行外汇差价合约交易或其他形式金融投资前，投资者请务必慎重考虑自身投资目标、交易经验、经济承受范围。杠杆交易存在令您损失部分或全部初始入金的可能性，因此，切忌投入无法承受损失的资金数额。客户应对上述外汇交易所存风险清楚了解，若有疑问应向个人金融理财顾问寻求专业的意见。交易前，请仔细阅读我们完整的风险披露、隐私政策、法律文件。
+      Risk Warning: Trading Derivatives carries a high level of risk to your capital and you should only trade with money you can afford to lose. Please ensure that you fully understand the risks involved, and seek independent advice if necessary. A Product Disclosure Statement (PDS) can be obtained  from our offices and should be considered before entering into a transaction with us. 
     </div>
   </div>
 </body>

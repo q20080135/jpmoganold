@@ -59,7 +59,7 @@ document.writeln("          <div class=\'subtitle\'></div>");
 document.writeln("          <ul class=\'sub-menu\'> ");
 document.writeln("           <li class=\'menu-item\'><a href=\'\'>产品类型</a> ");
 document.writeln("            <ul class=\'sub-menu\'> ");
-document.writeln("             <li class=\'menu-item\'><a href=\'forex.html\'>外汇</a></li> ");
+document.writeln("             <li class=\'menu-item\'><a href=\'forex.html\'>FX</a></li> ");
 document.writeln("             <li class=\'menu-item\'><a href=\'zhishu.html\'>指数</a></li> ");
 document.writeln("             <li class=\'menu-item\'><a href=\'crude.html\'>原油</a></li> ");
 document.writeln("             <li class=\'menu-item\'><a href=\'metal.html\'>贵金属</a></li> ");
@@ -137,7 +137,7 @@ document.writeln("             <li class=\'menu-item\'><a href=\'training.html\'
 document.writeln("             <li class=\'menu-item\'><a href=\'training.html\'>高手加速</a></li> ");
 document.writeln("             <li class=\'menu-item\'><a href=\'training.html\'>视频课堂</a></li> ");
 document.writeln("            </ul> </li> ");
-document.writeln("           <li class=\'menu-item\'><a href=\'u\'>外汇词典</a> ");
+document.writeln("           <li class=\'menu-item\'><a href=\'u\'>FX词典</a> ");
 document.writeln("            <ul class=\'sub-menu\'> ");
 document.writeln("             <li class=\'menu-item\'><a href=\'dictionary.html\'>常用术语</a></li> ");
 document.writeln("             <li class=\'menu-item\'><a href=\'dictionary.html\'>专业术语</a></li> ");
@@ -264,7 +264,7 @@ document.writeln("      <li class=\'menu-item\'><a href=\'linkus.html\'>联系�
 document.writeln("      </li> ");
 document.writeln("      <li class=\'menu-item\'><a href=\'javascript:void(0)\'>产品类型</a> ");
 document.writeln("       <ul class=\'sub-menu\'>");
-document.writeln("          <li class=\'menu-item\'><a href=\'forex.html\'>外汇</a></li> ");
+document.writeln("          <li class=\'menu-item\'><a href=\'forex.html\'>FX</a></li> ");
 document.writeln("          <li class=\'menu-item\'><a href=\'zhishu.html\'>指数</a></li> ");
 document.writeln("          <li class=\'menu-item\'><a href=\'crude.html\'>原油</a></li> ");
 document.writeln("          <li class=\'menu-item\'><a href=\'metal.html\'>贵金属</a></li> ");
@@ -294,7 +294,7 @@ document.writeln("          <li class=\'menu-item\'><a href=\'training.html#trai
 document.writeln("          <li class=\'menu-item\'><a href=\'training.html#training3\' id=\'shipin\'>视频课堂</a></li> ");
 document.writeln("        </ul>");
 document.writeln("      </li>");
-document.writeln("      <li class=\'menu-item\'><a href=\'javascript:void(0)\'>外汇词典</a> ");
+document.writeln("      <li class=\'menu-item\'><a href=\'javascript:void(0)\'>FX词典</a> ");
 document.writeln("         <ul class=\'sub-menu\'> ");
 document.writeln("          <li class=\'menu-item\'><a href=\'dictionary.html#dictionary1\' id=\'common\'>常用术语</a></li> ");
 document.writeln("          <li class=\'menu-item\'><a href=\'dictionary.html#dictionary2\' id=\'professional\'>专业术语</a></li> ");

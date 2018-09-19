@@ -195,8 +195,8 @@ Widget::load('front',array('view'=>'header'));
               <div class="page_content_text" style="display: none;background-color: #f6f6f6"> 
                <div class="default_template"> 
                 <p>1、 <a href="javascript:void();">综述风险以及风险管理的含义</a></p> 
-                <p>2、<a href="javascript:void();" target="_blank">个人如何进行外汇风险管理？你需要这些深入了解</a></p> 
-                <p>3、<a href="javascript:void();" target="_blank">外汇风险管理之平衡设置风险盈亏比</a></p> 
+                <p>2、<a href="javascript:void();" target="_blank">个人如何进行FX风险管理？你需要这些深入了解</a></p> 
+                <p>3、<a href="javascript:void();" target="_blank">FX风险管理之平衡设置风险盈亏比</a></p> 
                 <div class="clear"></div> 
                </div> 
               </div> 
@@ -369,7 +369,7 @@ Widget::load('front',array('view'=>'footer'));
       support@jpmorgen.com
     </div>
     <div class="small_footer_text">
-      风险声明:外汇差价合约交易属杠杆交易，具有高风险，并不一定适合所有投资者。高杠杆率意味着高收益与高风险并存，所以在决定进行外汇差价合约交易或其他形式金融投资前，投资者请务必慎重考虑自身投资目标、交易经验、经济承受范围。杠杆交易存在令您损失部分或全部初始入金的可能性，因此，切忌投入无法承受损失的资金数额。客户应对上述外汇交易所存风险清楚了解，若有疑问应向个人金融理财顾问寻求专业的意见。交易前，请仔细阅读我们完整的风险披露、隐私政策、法律文件。
+      Risk Warning: Trading Derivatives carries a high level of risk to your capital and you should only trade with money you can afford to lose. Please ensure that you fully understand the risks involved, and seek independent advice if necessary. A Product Disclosure Statement (PDS) can be obtained  from our offices and should be considered before entering into a transaction with us. 
     </div>
   </div>
    <script type="text/javascript"> 

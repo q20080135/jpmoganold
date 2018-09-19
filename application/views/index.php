@@ -5,7 +5,7 @@
   <style>
   .header_content .right_box .login_button:hover{background-color: #e2ce9c;}
   </style> 
-  <title>外汇保证金开户_MT4平台下载_知名ECN外汇平台</title> 
+  <title>在线交易经纪商 国际领先</title> 
   <meta charset="UTF-8" /> 
 
   <link rel="icon" href="" type="image/x-icon" /> 
@@ -18,7 +18,7 @@
   <link rel="stylesheet" type="text/css" href="/resource/static/front/css/app.css">
   
   <meta name="description" content="" /> 
-  <meta name="keywords" content="外汇交易平台、外汇开户,MT4平台下载" /> 
+  <meta name="keywords" content="FX交易平台、FX开户,MT4平台下载" /> 
   <link rel="canonical" href="" /> 
   <script type="text/javascript" src="/resource/static/front/js/jquery.js"></script> 
  <!--  <script type="text/javascript" src="js/jquery-migrate.min.js"></script> --> 
@@ -40,8 +40,8 @@
 
      ul.ul1 li{float:left;width:14%;display:inline-block;position:relative;line-height:60px;text-align:left}
      ul.ul2 li{float:left;width:14%;display:inline-block;position:relative;line-height:60px;text-align:left}
-     .i1{display:inline-block;margin-top:22px;width:15px;height:15px;float:left;background:url(./image/down.png) center no-repeat;}
-     .i2{display:inline-block;width:15px;margin-top:22px;height:15px;float:left;background:url(./image/up.png) center no-repeat ;}
+     .i1{display:inline-block;margin-top:22px;width:15px;height:15px;float:left;background:url(/resource/static/front/images/down.png) center no-repeat;}
+     .i2{display:inline-block;width:15px;margin-top:22px;height:15px;float:left;background:url(/resource/static/front/images/up.png) center no-repeat ;}
      .ul1 li span{display:inline-block;float:left;margin-left:8px;}
      .ul2 li span{display:inline-block;float:left;margin-left:8px;}
      #b0,#b1,#b2,#b3,#b4,#b5,#b6,#b00,#b11,#b22,#b33,#b44,#b55,#b66{font-weight:bold;}
@@ -338,7 +338,7 @@ Widget::load('front',array('view'=>'header'));
        </div> 
        <div id="chart" style="width:500px;height:470px;"></div> 
        <div class="tab"> 
-        <span>外汇</span> 
+        <span>FX</span> 
         <span>差价合约</span> 
         <span>商品</span> 
        </div> 
@@ -360,7 +360,7 @@ Widget::load('front',array('view'=>'header'));
        <a href="/product/account/type" class="span2">VIP</a> 
        <a href="/product/account/type" class="span3">ECN</a> 
       </div> 
-      <p>无论哪种类型的投资者，个人、机构、企<br>业等，都能找到符合自身需求的交易账户并通<br>过我们的MT4软件交易包括外汇、股指、商品<br>在内的50多种金融衍生品</p> 
+      <p>无论哪种类型的投资者，个人、机构、企<br>业等，都能找到符合自身需求的交易账户并通<br>过我们的MT4软件交易包括FX、股指、商品<br>在内的50多种金融衍生品</p> 
      </div>  
      <div class="img_box"> 
       <a class="img_box1">
@@ -539,8 +539,8 @@ Widget::load('front',array('view'=>'header'));
       </div>  </li> 
      <li> 
       <div class="title_line_bg2">
-        <p style="color:#fff;margin:0;line-height:38px;padding-top:50px;font-size:38px;text-align:center">市场活动</p>
-        <p style="color:#fff;margin:0;font-size:12px;text-align:center">MARKET ACTIVITY</p>
+        <p style="color:#fff;margin:0;line-height:38px;padding-top:50px;font-size:38px;text-align:center">每日资讯</p>
+        <p style="color:#fff;margin:0;font-size:12px;text-align:center">DAILY INFORMATION</p>
         <p style="text-align:center"><img src="/resource/static/front/images/down_arrow1.png"></p>
       </div> 
       <div class="wenzhang_list"> 
@@ -559,13 +559,13 @@ Widget::load('front',array('view'=>'header'));
            </div> 
         <?php endforeach;?>
         <div class="market_analysis_post_info" style="border:0;text-align:center;"> 
-        <a href="headline.html" class="more">查阅更多</a>
+        <a href="/announcement.html/0/144" class="more">查阅更多</a>
        </div>  
       </div> </li> 
      <li> 
       <div class="title_line_bg3">
-        <p style="color:#fff;margin:0;line-height:38px;padding-top:50px;font-size:38px;text-align:center">汇市头条</p>
-        <p style="color:#fff;margin:0;font-size:12px;text-align:center">IN THE CURRENCY MARKET HEADLINES</p>
+        <p style="color:#fff;margin:0;line-height:38px;padding-top:50px;font-size:38px;text-align:center">新闻动态</p>
+        <p style="color:#fff;margin:0;font-size:12px;text-align:center">NEWS INFORMATION</p>
         <p style="text-align:center"><img src="/resource/static/front/images/down_arrow1.png"></p>
       </div> 
       <div class="wenzhang_list"> 
@@ -583,7 +583,7 @@ Widget::load('front',array('view'=>'header'));
            </div> 
         <?php endforeach;?>
         <div class="market_analysis_post_info" style="border:0;text-align:center;"> 
-        <a href="/activity.html" class="more">查阅更多</a>
+        <a href="/announcement.html/0/143" class="more">查阅更多</a>
        </div>  
       </div></li> 
     </ul> 
@@ -722,7 +722,7 @@ Widget::load('front',array('view'=>'footer'));
       support@jpmorgen.com
     </div>
     <div class="small_footer_text">
-      风险声明:外汇差价合约交易属杠杆交易，具有高风险，并不一定适合所有投资者。高杠杆率意味着高收益与高风险并存，所以在决定进行外汇差价合约交易或其他形式金融投资前，投资者请务必慎重考虑自身投资目标、交易经验、经济承受范围。杠杆交易存在令您损失部分或全部初始入金的可能性，因此，切忌投入无法承受损失的资金数额。客户应对上述外汇交易所存风险清楚了解，若有疑问应向个人金融理财顾问寻求专业的意见。交易前，请仔细阅读我们完整的风险披露、隐私政策、法律文件。
+      Risk Warning: Trading Derivatives carries a high level of risk to your capital and you should only trade with money you can afford to lose. Please ensure that you fully understand the risks involved, and seek independent advice if necessary. A Product Disclosure Statement (PDS) can be obtained  from our offices and should be considered before entering into a transaction with us. 
     </div>
   </div> 
   <div class="sidebar_wrapper"> 
@@ -876,7 +876,7 @@ Widget::load('front',array('view'=>'footer'));
   $(document).ready(function() {  
       
        
-       setInterval(getResult, 2000);    
+       setInterval(getResult, 20000);    
          
     }) 
   if($(".home_scroll_bar").css("display") =='block')

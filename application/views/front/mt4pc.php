@@ -46,14 +46,14 @@ Widget::load('front',array('view'=>'header'));
       <div class="mt4pc_view_bot">
         <h1>MT4平台</h1>
         <p>
-          MT4是一款可同时交易原油、外汇、贵金属、指数的专业交易软件。其综合了行情图标、技术分析、交易操作三大功能于一身，可进行下单、平仓限价单、止损、止盈、查看报表及分析数据等不同操作，是目前最为广泛使用的外汇行情软件之一。目前在全球超过300家经纪商及银行正在使用MT4平台作为网络交易平台，是全球最受欢迎的在线交易平台。
+          MT4是一款可同时交易原油、FX、贵金属、指数的专业交易软件。其综合了行情图标、技术分析、交易操作三大功能于一身，可进行下单、平仓限价单、止损、止盈、查看报表及分析数据等不同操作，是目前最为广泛使用的FX行情软件之一。目前在全球超过300家经纪商及银行正在使用MT4平台作为网络交易平台，是全球最受欢迎的在线交易平台。
         </p>
         <ul>
           <li>
             <i class="i1"></i>
             <div class="mt4pc_view_content">
               <h1>支持多品种交易</h1>
-              <p>支持原油、外汇、贵金属、指数等多个品种交易</p>
+              <p>支持原油、FX、贵金属、指数等多个品种交易</p>
             </div>
           </li>
           <li>
@@ -141,7 +141,7 @@ Widget::load('front',array('view'=>'header'));
                   <i></i><span>数据加密，账户信息安全</span>
                 </li>
                 <li>
-                  <i></i><span>日内外汇精选策略推送</span>
+                  <i></i><span>日内FX精选策略推送</span>
                 </li>
               </ul>
               <a href="" class="reg" style="text-decoration:none">注 册</a>
@@ -232,7 +232,7 @@ Widget::load('front',array('view'=>'footer'));
       support@jpmorgen.com
     </div>
     <div class="small_footer_text">
-      风险声明:外汇差价合约交易属杠杆交易，具有高风险，并不一定适合所有投资者。高杠杆率意味着高收益与高风险并存，所以在决定进行外汇差价合约交易或其他形式金融投资前，投资者请务必慎重考虑自身投资目标、交易经验、经济承受范围。杠杆交易存在令您损失部分或全部初始入金的可能性，因此，切忌投入无法承受损失的资金数额。客户应对上述外汇交易所存风险清楚了解，若有疑问应向个人金融理财顾问寻求专业的意见。交易前，请仔细阅读我们完整的风险披露、隐私政策、法律文件。
+      Risk Warning: Trading Derivatives carries a high level of risk to your capital and you should only trade with money you can afford to lose. Please ensure that you fully understand the risks involved, and seek independent advice if necessary. A Product Disclosure Statement (PDS) can be obtained  from our offices and should be considered before entering into a transaction with us. 
     </div>
   </div>
   <script type="text/javascript"> 

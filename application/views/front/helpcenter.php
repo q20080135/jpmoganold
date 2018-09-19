@@ -592,7 +592,7 @@ Widget::load('front',array('view'=>'header'));
             </div> 
             <h3 style="margin-bottom: 20px;">2、保证金是什么？如何计算我的保证金？</h3> 
             <p>在MT4平台上，我们将Magin翻译成预付款。一般称为”保证金”。</p> 
-            <p>保证金是指您为了开设仓位而必须预付在账户中的一笔款项。与此前固定保证金模式不同，JPMogan采用全新的浮动保证金计算方式—-所交易产品的市场价将关联至保证金的浮动金额，即投资者在JPMogan平台进行的外汇或贵金属交易保证金有可能将跟随其市场价发生变动。JPMogan提供高达400倍的保证金杠杆。</p> 
+            <p>保证金是指您为了开设仓位而必须预付在账户中的一笔款项。与此前固定保证金模式不同，JPMogan采用全新的浮动保证金计算方式—-所交易产品的市场价将关联至保证金的浮动金额，即投资者在JPMogan平台进行的FX或贵金属交易保证金有可能将跟随其市场价发生变动。JPMogan提供高达400倍的保证金杠杆。</p> 
             <p>所需保证金是以基础货币为单位进行计算然后按现汇价格换算成美元来计算。如果您的可用保证金（预付款）低于您开仓时所需要的保证金，您将不能开仓。</p> 
             <p>可用保证金是用来衡量可以开设多少新仓位所需的保证金。</p> 
             <p>注：保证金的计算变量Market Price指定为成交时交易产品分子直盘的市场价(Market Price)。</p> 
@@ -606,7 +606,7 @@ Widget::load('front',array('view'=>'header'));
             <p>保证金 = 1Lot * 10,000(Contract size) * 1(Market Price) / 100(Leverage) = 100.00(USD)</p> 
             <p>再者，当该交易者在JPMogan平台于0.9460档位做空1迷你手的美元/瑞郎货币对，由于其分子（美元）的直盘市场价为1，则该用户在订单成交当下的已用保证金金额（固定）为：</p> 
             <p>保证金 = 1Lot * 10,000(Contract size) * 1(Market Price) / 100(Leverage) = 100.00(USD)</p> 
-            <p>以下是一些关于外汇交叉盘以及黄金产品的保证金计算方式：</p> 
+            <p>以下是一些关于FX交叉盘以及黄金产品的保证金计算方式：</p> 
             <p>如，客户A在JPMogan 平台于102.20档位做空2迷你手的澳元/日元，而此时分子直盘澳元/美元的报价为1.0304，则客户A在订单成交当下的已用保证金为：</p> 
             <p>保证金 = 2Lots * 10,000(Contract Size) * 1.0304(Market Price) / 100(Leverage) = 206.08(USD)</p> 
             <p>注：其已用保证金将跟随澳元/美元市场价的变化而不断调整。</p> 
@@ -616,7 +616,7 @@ Widget::load('front',array('view'=>'header'));
             <p>最后，此次的保证金新政同样适用于各投资者在JPMogan平台涉及的黄金和白银产品交易。例如：客户A于1440.00美元档位做空10迷你手的黄金（1迷你手的黄金合约为10盎司），则订单成交时，其已用保证金为：</p> 
             <p>保证金 = 10Lots * 10(Contract Size) * 1440(Market Price) / 100(Leverage) = 1440.00(USD)</p> 
             <p>注：其已用保证金将跟随黄金价格（XAU/USD）的变化而不断调整。</p> 
-            <p>JPMogan此次杠杆及保证金新政旨在有效控制所有客户在JPMogan平台进行的有关外汇，贵金属产品的投资风险，而此次CFD 差价合约的保证金计算方式仍维持不变。</p> 
+            <p>JPMogan此次杠杆及保证金新政旨在有效控制所有客户在JPMogan平台进行的有关FX，贵金属产品的投资风险，而此次CFD 差价合约的保证金计算方式仍维持不变。</p> 
             <p>JPMogan再次提醒投资者需完全理解本次政策的更改条例。</p> 
             <h3>JPMogan可以提供哪些杠杆？</h3> 
             <p>您好，JPMogan提供灵活的杠杆，从1:100~1:400，以适应不同的客户需求，修改杠杆需要客户通过后台提交杠杆修改申请。</p> 
@@ -675,7 +675,7 @@ Widget::load('front',array('view'=>'header'));
                 <th style="text-align: center;">单笔最大手数</th> 
                </tr> 
                <tr> 
-                <td style="text-align: center;">外汇</td> 
+                <td style="text-align: center;">FX</td> 
                 <td style="text-align: center;">0.01手</td> 
                 <td style="text-align: center;">50手</td> 
                </tr> 
@@ -782,7 +782,7 @@ Widget::load('front',array('view'=>'header'));
               </thead> 
              </table> 
             </div> 
-            <h3 style="margin-bottom: 20px;">8、外汇、贵金属、指数在止损设置中距离现价限制是多少？</h3> 
+            <h3 style="margin-bottom: 20px;">8、FX、贵金属、指数在止损设置中距离现价限制是多少？</h3> 
             <p>您好，JPMogan对相关产品的止损设置中要求如下：</p> 
             <div class="table_content"> 
              <table border="0" width="100%" cellspacing="0" cellpadding="0"> 
@@ -794,7 +794,7 @@ Widget::load('front',array('view'=>'header'));
               </thead> 
               <tbody> 
                <tr> 
-                <td style="text-align: center;">外汇</td> 
+                <td style="text-align: center;">FX</td> 
                 <td style="text-align: center;">20points</td> 
                </tr> 
                <tr> 
@@ -880,9 +880,9 @@ Widget::load('front',array('view'=>'header'));
               </tbody> 
              </table> 
             </div> 
-            <h3 style="margin-bottom: 20px;">9、外汇、贵金属、商品及相关指数的报价开始关闭时间范围是多少？</h3> 
+            <h3 style="margin-bottom: 20px;">9、FX、贵金属、商品及相关指数的报价开始关闭时间范围是多少？</h3> 
             <p>您好，JPMogan所有产品报价的开关时间如下：</p> 
-            <h3 style="margin-bottom: 20px;">外汇</h3> 
+            <h3 style="margin-bottom: 20px;">FX</h3> 
             <div class="table_content"> 
              <table border="0" width="100%" cellspacing="0" cellpadding="0"> 
               <thead> 
@@ -1210,7 +1210,7 @@ Widget::load('front',array('view'=>'header'));
            <div class="helpcenter_main_bot_title">
               交易问题
            </div>             <h3 style="margin-bottom: 20px;">1、什么是点差？</h3> 
-            <p>您好，在外汇交易中，您会看到一个两边的报价，由买价 (ask) 与卖价 (bid) 组成。买价代表您能买入基础货币的价位 (同时卖出非基础货币)；卖价代表您能卖出基础货币的价位 (同时买入非基础货币) 。买价与卖价的差别为点差，交易商通过买卖的点差获利。</p> 
+            <p>您好，在FX交易中，您会看到一个两边的报价，由买价 (ask) 与卖价 (bid) 组成。买价代表您能买入基础货币的价位 (同时卖出非基础货币)；卖价代表您能卖出基础货币的价位 (同时买入非基础货币) 。买价与卖价的差别为点差，交易商通过买卖的点差获利。</p> 
             <h3>2、当我的交易遇到问题，可以使用电话交易吗？</h3> 
             <p>您好，JPMogan提供5天24小时交易，如果在交易中遇到任何问题可以拨打官方客服热线进行交易，但是我们的电话交易只负责修改及关闭仓位，而不接受新开仓的指令。</p> 
             <h3 style="margin-bottom: 20px;">3、什么是滑点？</h3> 
@@ -1329,7 +1329,7 @@ Widget::load('front',array('view'=>'header'));
             <p>特别声明：由于该现象为市场交易的常规现象，JPMogan强烈建议客户仔细阅读风险说明书，了解真实市场状况后再选择交易，否则由客观市场在特殊情况下价格调控所导致的滑点成交或爆仓，JPMogan不承担任何责任，更不给予任何赔偿。</p> 
             <h3 style="margin-bottom: 20px;">5、什么是差价扩大？为什么会产生差价扩大？</h3> 
             <p>JPMogan作为ECN平台提供商，为客户提供浮动点差的交易，客户可以通过官网交易产品一栏查看点差浮动的基本状况。但是在某些特殊情况下，交易产品也会出现比平均值高出一些的点差情况，我们称之为点差扩大。</p> 
-            <p>点差扩大一般发生在特殊的新闻事件公布的时间节点，这时候外汇、贵金属等产品在行情出现价格跳空会有点差扩大的现象，而差价合约类产品CFDs在期货正常交易时间外也会出现点差扩大的现象。</p> 
+            <p>点差扩大一般发生在特殊的新闻事件公布的时间节点，这时候FX、贵金属等产品在行情出现价格跳空会有点差扩大的现象，而差价合约类产品CFDs在期货正常交易时间外也会出现点差扩大的现象。</p> 
             <p>在真正了解点差扩大的同时，我们首先需要了解ECN的成交原理：</p> 
             <p><strong>ECN交易平台的客户订单成交过程是这样的：</strong></p> 
             <p>客户下单（买或卖）－－＞订单通过交易商平台－－＞订单被执行到银行间市场（ECN交易网络）中的某家银行接受（卖或买）</p> 
@@ -1352,7 +1352,7 @@ Widget::load('front',array('view'=>'header'));
             <h3 style="margin-bottom: 20px;">7、JPMogan平台锁仓占用保证金吗？</h3> 
             <p>您好，JPMogan平台中的所有产品锁仓均不占用保证金。</p> 
             <h3 style="margin-bottom: 20px;">8、为什么我周三的隔夜单利息收了三倍？</h3> 
-            <p>您好，根据国际银行惯例，外汇交易在2个交易日后结算。隔夜利息是按照结算日计算。周三：3天隔夜利息。周三持仓到周四，结算日为周五到下周一，所以要支付/收取3天利息。</p> 
+            <p>您好，根据国际银行惯例，FX交易在2个交易日后结算。隔夜利息是按照结算日计算。周三：3天隔夜利息。周三持仓到周四，结算日为周五到下周一，所以要支付/收取3天利息。</p> 
             <h3 style="margin-bottom: 20px;">9、在同一时间对持有多大订单有限制吗？</h3> 
             <p>您好，在交易的持仓上，JPMogan会根据客户的交易手数调整杠杆，建议客户调整仓位。</p> 
             <h3 style="margin-bottom: 20px;">10、我可以持有我的订单多久？</h3> 
@@ -1399,7 +1399,7 @@ Widget::load('front',array('view'=>'footer'));
       support@jpmorgen.com
     </div>
     <div class="small_footer_text">
-      风险声明:外汇差价合约交易属杠杆交易，具有高风险，并不一定适合所有投资者。高杠杆率意味着高收益与高风险并存，所以在决定进行外汇差价合约交易或其他形式金融投资前，投资者请务必慎重考虑自身投资目标、交易经验、经济承受范围。杠杆交易存在令您损失部分或全部初始入金的可能性，因此，切忌投入无法承受损失的资金数额。客户应对上述外汇交易所存风险清楚了解，若有疑问应向个人金融理财顾问寻求专业的意见。交易前，请仔细阅读我们完整的风险披露、隐私政策、法律文件。
+      Risk Warning: Trading Derivatives carries a high level of risk to your capital and you should only trade with money you can afford to lose. Please ensure that you fully understand the risks involved, and seek independent advice if necessary. A Product Disclosure Statement (PDS) can be obtained  from our offices and should be considered before entering into a transaction with us. 
     </div>
   </div>
 </body>

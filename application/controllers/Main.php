@@ -14,11 +14,11 @@ class Main extends MY_Controller
         $que = $this->db->query($sql);
         $data['wdata1'] = $que->result_array();
 
-        $sql = "SELECT * FROM `spe_articles` WHERE aAddtime<now() and aIsView = 1 and aDel = 0 and aIsRecommend =1 and cID in (134,135) order by aAddtime desc limit 0,3";
+        $sql = "SELECT * FROM `spe_articles` WHERE aAddtime<now() and aIsView = 1 and aDel = 0 and aIsRecommend =1 and cID in (144) order by aAddtime desc limit 0,3";
         $que = $this->db->query($sql);
         $data['wdata2'] = $que->result_array();
 
-        $sql = "SELECT * FROM `spe_articles` WHERE aAddtime<now() and aIsView = 1 and aDel = 0 and aIsRecommend =1 and cID = 136 order by aAddtime desc limit 0,3";
+        $sql = "SELECT * FROM `spe_articles` WHERE aAddtime<now() and aIsView = 1 and aDel = 0 and aIsRecommend =1 and cID = 143 order by aAddtime desc limit 0,3";
         $que = $this->db->query($sql);
         $data['wdata3'] = $que->result_array();
 
